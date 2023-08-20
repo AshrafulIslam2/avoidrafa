@@ -10,7 +10,7 @@ const TourSchedule = () => {
       <div className="relative">
         <div className="absolute inset-0">
           <Image
-            src="/Image Place Holder-1.png"
+            src="/ImagePlaceHolder-1.png"
             alt="background image"
             className="blur opacity-1"
             fill
