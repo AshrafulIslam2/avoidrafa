@@ -20,7 +20,7 @@ function Announcemnet() {
           </button>
         </div>
         <Image
-          src={"/Mask Group 32.png"}
+          src={"/MaskGroup32.png"}
           width={471}
           height={678}
           alt="avoid-rafa "
