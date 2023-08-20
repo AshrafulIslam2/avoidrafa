@@ -37,7 +37,7 @@ const TourSchedule = () => {
               </button>
             </div>
           </div>
-          <hr className=" max-w-screen-lg 2xl:max-w-[1600px] mx-auto" />
+          <hr className="    2xl:max-w-[1600px] mx-auto" />
           <div className="grid grid-cols-3 items-end py-2 justify-items-start">
             <div className="flex flex-col gap-3 items-start">
               <h1 className="text-red-600  font-semibold text-[20px]">
@@ -58,7 +58,7 @@ const TourSchedule = () => {
               </button>
             </div>
           </div>
-          <hr className=" max-w-screen-lg 2xl:max-w-[1600px] mx-auto" />
+          <hr className="    2xl:max-w-[1600px] mx-auto" />
           <div className="grid grid-cols-3 items-end py-2 justify-items-start">
             <div className="flex flex-col gap-3">
               <h1 className="text-red-600  font-semibold text-[20px]">
@@ -79,7 +79,7 @@ const TourSchedule = () => {
               </button>
             </div>
           </div>
-          <hr className=" max-w-screen-lg 2xl:max-w-[1600px] mx-auto" />
+          <hr className="    2xl:max-w-[1600px] mx-auto" />
           <div className="grid grid-cols-3 items-end py-2 justify-items-start">
             <div className="flex flex-col gap-3">
               <h1 className="text-red-600  font-semibold text-[20px]">
@@ -100,7 +100,7 @@ const TourSchedule = () => {
               </button>
             </div>
           </div>
-          <hr className=" max-w-screen-lg 2xl:max-w-[1600px] mx-auto" />
+          <hr className="    2xl:max-w-[1600px] mx-auto" />
           <div className="grid grid-cols-3 items-end py-2 justify-items-start">
             <div className="flex flex-col gap-3">
               <h1 className="text-red-600  font-semibold text-[20px]">
@@ -121,7 +121,7 @@ const TourSchedule = () => {
               </button>
             </div>
           </div>
-          <hr className=" max-w-screen-lg 2xl:max-w-[1600px] mx-auto" />
+          <hr className="    2xl:max-w-[1600px] mx-auto" />
           <div className="grid grid-cols-3 items-end py-2 justify-items-start">
             <div className="flex flex-col gap-3">
               <h1 className="text-red-600  font-semibold text-[20px]">
@@ -142,7 +142,7 @@ const TourSchedule = () => {
               </button>
             </div>
           </div>
-          <hr className=" max-w-screen-lg 2xl:max-w-[1600px] mx-auto" />
+          <hr className="    2xl:max-w-[1600px] mx-auto" />
           <div className="grid grid-cols-3 items-end py-2 justify-items-start">
             <div className="flex flex-col gap-3">
               <h1 className="text-red-600  font-semibold text-[20px]">
@@ -163,7 +163,7 @@ const TourSchedule = () => {
               </button>
             </div>
           </div>
-          <hr className=" max-w-screen-lg 2xl:max-w-[1600px] mx-auto" />
+          <hr className="    2xl:max-w-[1600px] mx-auto" />
           <div className="grid grid-cols-3 items-end py-2 justify-items-start">
             <div className="flex flex-col gap-3">
               <h1 className="text-red-600  font-semibold text-[20px]">
@@ -184,7 +184,7 @@ const TourSchedule = () => {
               </button>
             </div>
           </div>
-          <hr className=" max-w-screen-lg 2xl:max-w-[1600px] mx-auto" />
+          <hr className="    2xl:max-w-[1600px] mx-auto" />
           <div className="grid grid-cols-3 items-end py-2 justify-items-start">
             <div className="flex flex-col gap-3">
               <h1 className="text-red-600  font-semibold text-[20px]">
@@ -205,7 +205,7 @@ const TourSchedule = () => {
               </button>
             </div>
           </div>
-          <hr className=" max-w-screen-lg 2xl:max-w-[1600px] mx-auto" />
+          <hr className="    2xl:max-w-[1600px] mx-auto" />
           <div className="grid grid-cols-3 items-end py-2 justify-items-start">
             <div className="flex flex-col gap-3">
               <h1 className="text-red-600  font-semibold text-[20px]">
@@ -226,7 +226,7 @@ const TourSchedule = () => {
               </button>
             </div>
           </div>
-          <hr className=" max-w-screen-lg 2xl:max-w-[1600px] mx-auto" />
+          <hr className="    2xl:max-w-[1600px] mx-auto" />
         </div>
       </div>
       <div className="flex justify-center py-10">
