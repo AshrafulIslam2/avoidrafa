@@ -5,6 +5,7 @@ import Gallery from "@/Components/Gallery";
 import Announcemnet from "@/Components/AnnouncementSection/Announcemnet";
 import Hero_Section from "@/Components/HeroSection/Hero_Section";
 import Album from "@/Components/Album/Album";
+import Products from "@/Components/Products/Products";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Announcemnet />
       <Album />
       {/* <Image src={avoid} alt='avoid-rafa' className='object-cover w-screen h-screen' ></Image> */}
+      <Products />
       <Gallery />
     </main>
   );

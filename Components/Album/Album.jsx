@@ -192,7 +192,7 @@ function Album() {
                   />
 
                   <div className="">
-                    <div className="h-[370px] mt-2 mr-2 overflow-y-scroll rounded-10">
+                    <div className="h-[270px] mt-2 mr-2 overflow-y-scroll rounded-10">
                       {SongsBank.Album[album].Albumsong.map((song, Index) => (
                         <div
                           key={Index}
