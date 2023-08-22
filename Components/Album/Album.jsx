@@ -119,7 +119,7 @@ function Album() {
   };
 
   return (
-    <div>
+    <div className="py-10">
       <Swiper
         spaceBetween={10}
         pagination={{ clickable: true }}
@@ -136,10 +136,10 @@ function Album() {
           const newPlayerStates = Array(playerStates.length).fill(false);
           setPlayerStates(newPlayerStates);
         }}
-        className="bg-black"
+        className="bg-black py-10"
         onSwiper={(swiper) => console.log(swiper)}
       >
-        <div className="absolute  top-[400px] xl:top-[508px] 2xl:top-[750px] right-[80px] sm:-bottom-[280px] sm:right-[490px] z-10 flex items-center">
+        <div className="absolute  top-[400px] xl:top-[530px] 2xl:top-[792px] right-[80px] sm:-bottom-[280px] sm:right-[490px] z-10 flex items-center">
           <button className="image-swiper-button-prev  w-16 h-16 ">
             <svg
               width="114"
@@ -222,11 +222,11 @@ function Album() {
                                 )
                               }
                             />{" "}
-                            <h1 className="text-[#959595]   group-hover/album:text-white">
+                            <h1 className=" text-[#959595]   group-hover/album:text-white">
                               {SongsBank.songs[song].audioTrackTitle}
                             </h1>
                           </div>
-                          <h1 className="text-[#959595] group-hover/album:text-white ">
+                          <h1 className=" text-[#959595] group-hover/album:text-white ">
                             {SongsBank.songs[song].audioTrakTime}
                           </h1>
                         </div>
@@ -577,7 +577,7 @@ function Album() {
             </div>
           </div>
         </SwiperSlide> */}
-        <div className="absolute top-[440px] xl:top-[540px] 2xl:top-[790px] right-[30px] sm:-bottom-[280px] sm:right-[290px] z-10 flex items-center">
+        <div className="absolute top-[440px] xl:top-[570px] 2xl:top-[827px] right-[30px] sm:-bottom-[280px] sm:right-[290px] z-10 flex items-center">
           <button className="image-swiper-button-next ">
             <svg
               width="114"

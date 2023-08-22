@@ -6,16 +6,21 @@ import Announcemnet from "@/Components/AnnouncementSection/Announcemnet";
 import Hero_Section from "@/Components/HeroSection/Hero_Section";
 import Album from "@/Components/Album/Album";
 import Products from "@/Components/Products/Products";
-
+import ContactUs from "@/Components/ContactUs/ContactUs";
+import ScroolTop from "@/Components/ScrollTop";
+import ScocialMedila from "@/Components/SocialMediaLink";
 const Home = () => {
   return (
-    <main>
+    <main className="bg-black ">
       <Hero_Section />
       <Announcemnet />
       <Album />
+      <Gallery />
       {/* <Image src={avoid} alt='avoid-rafa' className='object-cover w-screen h-screen' ></Image> */}
       <Products />
-      <Gallery />
+      <ContactUs />
+      <ScocialMedila />
+      <ScroolTop />
     </main>
   );
 };

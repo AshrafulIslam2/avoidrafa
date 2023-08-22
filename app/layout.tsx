@@ -1,9 +1,10 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Bebas_Neue } from 'next/font/google'
 import Navigation from '@/Components/shared/Navigation'
 import Footer from '@/Components/shared/Footer'
 
-const inter = Inter({ subsets: ['latin'] })
+
+ const Bebas_Neues = Bebas_Neue({weight:"400",preload:false})
 
 export const metadata = {
   title: 'Avoid Rafa',
@@ -17,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={Bebas_Neues.className}>
         <Navigation/>
         {children}
         <Footer/>

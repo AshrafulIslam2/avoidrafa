@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Navigation = () => {
   return (
-    <div className="bg-black flex items-center justify-around ">
+    <div className="bg-black flex items-center justify-around top-0 sticky z-40 ">
       {}
       <Image
         src="/Group_73.svg"
@@ -55,7 +55,7 @@ const Navigation = () => {
           href={""}
           className="text-white sm:px-[30px] lg:px-[20px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border mr-3 xl:mr-0 hover:border-white text-[14px] xl:text-base"
         >
-          BOKKING
+          BOOKING
         </Link>
       </div>
       <div></div>
