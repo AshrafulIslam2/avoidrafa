@@ -6,20 +6,6 @@ import Calendar from "react-calendar";
 const ContactUs = () => {
   const [value, onChange] = useState(new Date());
   const [Information, setInformation] = useState({});
-  const [bookedDates, setBookedDates] = useState([
-    new Date("2023-08-15"),
-    new Date("2023-08-20"),
-    // Add other booked dates here
-  ]);
-
-  const tileClassName = ({ date }) => {
-    return bookedDates.some(
-      (bookedDate) => bookedDate.toDateString() === date.toDateString()
-    )
-      ? "booked-date"
-      : "";
-  };
-  console.log(Information);
   const getInformation = (event) => {
     const { name, value } = event.target;
     setInformation((prev) => ({
@@ -83,11 +69,7 @@ const ContactUs = () => {
             Submit
           </button>
         </form>
-        <div
-          id="react-calendar"
-          className="react-calendar"
-          tileClassName={tileClassName}
-        >
+        <div id="react-calendar" className="react-calendar">
           <Calendar onChange={onChange} value={value} />
         </div>
       </div>

@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={Bebas_Neues.className}>
+      <body cz-shortcut-listen="true" className={Bebas_Neues.className}>
         <Navigation/>
         {children}
         <Footer/>

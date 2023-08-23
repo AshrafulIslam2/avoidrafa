@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import {
@@ -95,14 +95,15 @@ function Album() {
   );
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentAudio, setCurrentAudio] = useState(null); // Holds the current audio source
-  const audioRef = useRef(new Audio());
+  const [audioElement, setAudioElement] = useState(null);
+  // const audioRef = useRef(new Audio());
 
   const handlePlayer = (index, audioSource) => {
     console.log(audioSource);
     console.log(index);
     if (currentAudio !== audioSource) {
-      audioRef.current.pause();
-      audioRef.current.src = audioSource;
+      audioElement.pause();
+      audioElement.src = audioSource;
       setCurrentAudio(audioSource);
     }
 
@@ -112,12 +113,16 @@ function Album() {
 
     setPlayerStates(newPlayerStates);
     if (newPlayerStates[index]) {
-      audioRef.current.play();
+      audioElement.play();
     } else {
-      audioRef.current.pause();
+      audioElement.pause();
     }
   };
 
+  useEffect(() => {
+    setAudioElement(new Audio(URL));
+    // only run once on the first render on the client
+  }, []);
   return (
     <div className="py-10">
       <Swiper
@@ -132,12 +137,12 @@ function Album() {
         }}
         grabCursor={true}
         onSlideChange={() => {
-          audioRef.current.pause();
+          audioElement.pause();
           const newPlayerStates = Array(playerStates.length).fill(false);
           setPlayerStates(newPlayerStates);
         }}
         className="bg-black py-10"
-        onSwiper={(swiper) => console.log(swiper)}
+        // onSwiper={(swiper) => console.log(swiper)}
       >
         <div className="absolute  top-[400px] xl:top-[530px] 2xl:top-[792px] right-[80px] sm:-bottom-[280px] sm:right-[490px] z-10 flex items-center">
           <button className="image-swiper-button-prev  w-16 h-16 ">
@@ -149,11 +154,11 @@ function Album() {
               className="absolute "
               xmlns="http://www.w3.org/2000/svg"
             >
-              <g clip-path="url(#clip0_3_220)">
+              <g clipPath="url(#clip0_3_220)">
                 <path
                   d="M22.8248 20.3805L91.7484 20.3805M28.3584 13.5L22.2516 20.5463L28.3584 26.5356"
                   stroke="white"
-                  stroke-width="2"
+                  strokeWidth="2"
                 />
               </g>
               <rect
@@ -587,11 +592,11 @@ function Album() {
               className="relative top-0 right-4"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <g clip-path="url(#clip0_92_95)">
+              <g clipPath="url(#clip0_92_95)">
                 <path
                   d="M91.1752 19.6195L22.2516 19.6195M85.6416 26.5L91.7484 19.4537L85.6416 13.4644"
                   stroke="white"
-                  stroke-width="2"
+                  strokeWidth="2"
                 />
               </g>
               <rect

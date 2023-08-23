@@ -11,7 +11,7 @@ function ScocialMedila() {
     });
   };
   return (
-    <div>
+    <div className="relative z-40">
       <Link
         href={
           "https://www.tiktok.com/@avoidrafa?lang=en&fbclid=IwAR2H0tOQrwDpA8AltL92ux8SG6-sd1E-Stx5qj5UcnOsWXqIAyUMDErgebE"
