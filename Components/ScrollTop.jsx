@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 function ScroolTop() {
   const scrollToTop = () => {
@@ -8,10 +8,28 @@ function ScroolTop() {
       behavior: "smooth",
     });
   };
+  const [showButton, setShowButton] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPercent =
+        (window.scrollY / (document.body.scrollHeight - window.innerHeight)) *
+        100;
+      setShowButton(scrollPercent >= 50);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <button
       onClick={scrollToTop}
-      className=" fixed right-12 top-[50%] z-20  bottom-0 animate-pulse"
+      className={`fixed right-12 z-20 top-[50%] bottom-0 animate-pulse ${
+        showButton ? "" : "hidden"
+      }`}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

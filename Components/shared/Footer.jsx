@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import ScroolTop from "../ScrollTop";
 
 const Footer = () => {
   return (
@@ -18,6 +19,7 @@ const Footer = () => {
           <h1>ABOUT US</h1>
         </div>
       </div>
+      <ScroolTop />
     </div>
   );
 };

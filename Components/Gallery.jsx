@@ -18,28 +18,28 @@ const Gallery = () => {
           <div className="flex justify-end col-span-2">
             <Image
               src={gallery_Image_2}
-              className="border-4 border-black hover:scale-110 hover:border-white transition-all ease-in-out duration-500"
+              className="border-4 border-black hover:scale-110 hover:-translate-x-5 hover:border-black transition-all ease-in-out duration-500"
               alt="avoid rafa"
             />
           </div>
           <Image
             src={gallery_Image_3}
-            className="border-4 border-black  inline-block  col-span-2 hover:scale-110 hover:border-white transition-all ease-in-out duration-500 max-w-full h-full "
+            className="border-4 border-black  inline-block  col-span-2 hover:scale-110 hover:border-black hover:-translate-x-8 transition-all ease-in-out duration-500 max-w-full h-full "
             alt="avoid rafa"
           />
           <Image
             src={gallery_Image_4}
-            className="border-4  border-black inline-block  max-w-full h-full  hover:scale-110 hover:border-white transition-all ease-in-out duration-500"
+            className="border-4  border-black inline-block  max-w-full h-full  hover:scale-110 hover:-translate-x-10 hover:border-black transition-all ease-in-out duration-500"
             alt="avoid rafa"
           />
           <Image
             src={gallery_Image_5}
-            className="border-4  border-black inline-block  max-w-full  h-full hover:scale-110 hover:border-white transition-all ease-in-out duration-500"
+            className="border-4  border-black inline-block  max-w-full  h-full hover:scale-110 hover:-translate-x-8 hover:border-black transition-all ease-in-out duration-500"
             alt="avoid rafa"
           />
           <Image
             src={gallery_Image_6}
-            className="border-4  border-black inline-block  max-w-full  hover:scale-110  hover:border-white transition-all ease-in-out duration-500 col-span-2 "
+            className="border-4  border-black inline-block  max-w-full  hover:scale-110 hover:-translate-x-10 hover:border-black transition-all ease-in-out duration-500 col-span-2 "
             alt="avoid rafa"
           />
 
@@ -53,12 +53,12 @@ const Gallery = () => {
           <Image
             src={gallery_Image_1}
             alt="avoid rafa"
-            className="border-4 border-black hover:border-white inline-block hover:scale-110 transition-all ease-in-out duration-500"
+            className="border-4 border-black hover:border-black inline-block hover:scale-110 hover:-translate-y-8 transition-all ease-in-out duration-500"
           />
           <div>
             <Image
               src={gallery_Image_7}
-              className=" border-4 border-black hover:scale-110 hover:border-white transition-all ease-in-out duration-500  inline-block  md:h-[440px] lg:h-[524px] 2xl:h-[565px]  max-w-full "
+              className=" border-4 border-black hover:scale-110 hover:border-black hover:translate-y-8 transition-all ease-in-out duration-500  inline-block  md:h-[440px] lg:h-[524px] 2xl:h-[565px]  max-w-full "
               alt="avoid rafa"
             />
           </div>

@@ -20,7 +20,7 @@ const Home = () => {
       <Products />
       <ContactUs />
       <ScocialMedila />
-      <ScroolTop />
+      {/* <ScroolTop /> */}
     </main>
   );
 };
