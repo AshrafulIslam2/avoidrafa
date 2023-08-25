@@ -4,7 +4,7 @@ import React from "react";
 
 const Products = () => {
   return (
-    <div className="bg-black py-10">
+    <div className="bg-black py-10 " id="products">
       <h1 className="text-white font-semibold text-[120px] text-center py-6">
         MERCH
       </h1>

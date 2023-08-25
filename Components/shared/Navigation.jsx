@@ -16,43 +16,43 @@ const Navigation = () => {
 
       <div className="">
         <Link
-          href={""}
+          href={"#"}
           className="text-white sm:px-[30px] lg:px-[40px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border hover:border-white text-[14px] xl:text-base p"
         >
           HOME
         </Link>
         <Link
-          href={""}
+          href={"#news"}
           className="text-white sm:px-[30px] lg:px-[40px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border hover:border-white text-[14px] xl:text-base"
         >
           LATEST
         </Link>
         <Link
-          href={""}
+          href={"#tour"}
           className="text-white sm:px-[30px] lg:px-[40px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border hover:border-white text-[14px] xl:text-base"
         >
           TOUR
         </Link>
         <Link
-          href={""}
+          href={"#album"}
           className="text-white sm:px-[30px] lg:px-[40px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border hover:border-white text-[14px] xl:text-base"
         >
           ALBUM
         </Link>
         <Link
-          href={""}
+          href={"#gallery"}
           className="text-white sm:px-[30px] lg:px-[40px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border hover:border-white text-[14px] xl:text-base"
         >
           GALLERY
         </Link>
         <Link
-          href={""}
+          href={"#products"}
           className="text-white sm:px-[30px] lg:px-[40px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border hover:border-white text-[14px] xl:text-base"
         >
           MERCH
         </Link>
         <Link
-          href={""}
+          href={"#contact"}
           className="text-white sm:px-[30px] lg:px-[20px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border mr-3 xl:mr-0 hover:border-white text-[14px] xl:text-base"
         >
           BOOKING

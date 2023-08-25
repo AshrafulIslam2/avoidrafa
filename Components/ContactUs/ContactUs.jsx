@@ -21,10 +21,10 @@ const ContactUs = () => {
     setInformation({});
   };
   return (
-    <div className="py-20 px-[50px]">
+    <div className="py-20 px-[50px] " id="contact">
       <div className="py-[24px]">
         <h1 className="text-center font-bold text-[80px]  text-white">
-          BOOKED AVOID RAFA
+          BOOKED AVOIDRAFA
         </h1>
         <h1 className="text-center text-[20px]  text-white">
           BOOKED AVOID RAFA FOR SHOW OR CONCERT

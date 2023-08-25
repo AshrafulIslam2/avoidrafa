@@ -11,7 +11,7 @@ import ScroolTop from "@/Components/ScrollTop";
 import ScocialMedila from "@/Components/SocialMediaLink";
 const Home = () => {
   return (
-    <main className="bg-black ">
+    <main className="bg-black">
       <Hero_Section />
       <Announcemnet />
       <Album />

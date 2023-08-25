@@ -4,7 +4,10 @@ import Image from "next/image";
 const TourSchedule = () => {
   return (
     <div className="">
-      <h1 className="text-white text-center  py-5 xl:py-10  sm:text-[93px] 2xl:text-[170px] font-bold ">
+      <h1
+        className="text-white text-center  py-5 xl:py-10  sm:text-[93px] 2xl:text-[170px] font-bold "
+        id="tour"
+      >
         TOUR SCHEDULE
       </h1>
       <div className="relative">

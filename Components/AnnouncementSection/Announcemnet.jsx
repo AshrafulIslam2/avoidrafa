@@ -4,7 +4,7 @@ import TourSchedule from "@/Components/TourSchedule/TourSchedule";
 
 function Announcemnet() {
   return (
-    <div className="bg-black">
+    <div className="bg-black" id="news">
       <div className="flex mx-[150px] items-center justify-center  lg:justify-center 2xl:justify-center gap-x-2 ">
         <div className="">
           <h1 className="  md:text-[70px] md:mr-2 lg:text-[70px] xl:text-[105px] 2xl:text-[150px]  font-medium tracking-[-6.78px] text-red-600 leading-none">

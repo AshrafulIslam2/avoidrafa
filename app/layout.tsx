@@ -4,7 +4,8 @@ import Navigation from '@/Components/shared/Navigation'
 import Footer from '@/Components/shared/Footer'
 
 
- const Bebas_Neues = Bebas_Neue({weight:"400",preload:false})
+const Bebas_Neues = Bebas_Neue({ weight: "400", preload: false })
+
 
 export const metadata = {
   title: 'Avoid Rafa',
@@ -17,8 +18,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body cz-shortcut-listen="true" className={Bebas_Neues.className}>
+    <html lang="en" className='scroll-smooth'>
+      <body cz-shortcut-listen="true" className={Bebas_Neues.className} >
         <Navigation/>
         {children}
         <Footer/>
