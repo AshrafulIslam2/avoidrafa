@@ -1,12 +1,20 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 import Image from "next/image";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const TourSchedule = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="">
       <h1
         className="text-white text-center  py-5 xl:py-10  sm:text-[93px] 2xl:text-[170px] font-bold "
         id="tour"
+        data-aos="fade-up"
+        data-aos-duration="1000"
       >
         TOUR SCHEDULE
       </h1>
@@ -20,7 +28,12 @@ const TourSchedule = () => {
           />
         </div>
         <div className="relative z-10  h-full mx-[24px] 2xl:mx-[150px]">
-          <div className="grid grid-cols-3 items-end py-2 justify-items-start">
+          <div
+            className="grid grid-cols-3 items-end py-2 justify-items-start"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
             <div className="flex flex-col gap-3 items-start">
               <h1 className=" text-red-600  font-semibold text-[20px] ">
                 CHATTAGRAM ROCK FAST
@@ -41,7 +54,12 @@ const TourSchedule = () => {
             </div>
           </div>
           <hr className="bg-gray-100 2xl:max-w-[1600px] mx-auto" />
-          <div className="grid grid-cols-3 items-end py-2 justify-items-start">
+          <div
+            className="grid grid-cols-3 items-end py-2 justify-items-start"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
             <div className="flex flex-col gap-3 items-start">
               <h1 className=" text-red-600  font-semibold text-[20px]">
                 DHAKA ROCK FAST
@@ -62,7 +80,12 @@ const TourSchedule = () => {
             </div>
           </div>
           <hr className="bg-gray-100 2xl:max-w-[1600px] mx-auto" />
-          <div className="grid grid-cols-3 items-end py-2 justify-items-start">
+          <div
+            className="grid grid-cols-3 items-end py-2 justify-items-start"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
             <div className="flex flex-col gap-3">
               <h1 className=" text-red-600  font-semibold text-[20px]">
                 CHATTAGRAM ROCK FAST
@@ -83,7 +106,12 @@ const TourSchedule = () => {
             </div>
           </div>
           <hr className="bg-gray-100 2xl:max-w-[1600px] mx-auto" />
-          <div className="grid grid-cols-3 items-end py-2 justify-items-start">
+          <div
+            className="grid grid-cols-3 items-end py-2 justify-items-start"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
             <div className="flex flex-col gap-3">
               <h1 className=" text-red-600  font-semibold text-[20px]">
                 KHULNA ROCK FAST
@@ -104,7 +132,12 @@ const TourSchedule = () => {
             </div>
           </div>
           <hr className="bg-gray-100 2xl:max-w-[1600px] mx-auto" />
-          <div className="grid grid-cols-3 items-end py-2 justify-items-start">
+          <div
+            className="grid grid-cols-3 items-end py-2 justify-items-start"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
             <div className="flex flex-col gap-3">
               <h1 className=" text-red-600  font-semibold text-[20px]">
                 DHAKA ROCK FAST
@@ -125,7 +158,12 @@ const TourSchedule = () => {
             </div>
           </div>
           <hr className="bg-gray-100 2xl:max-w-[1600px] mx-auto" />
-          <div className="grid grid-cols-3 items-end py-2 justify-items-start">
+          <div
+            className="grid grid-cols-3 items-end py-2 justify-items-start"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
             <div className="flex flex-col gap-3">
               <h1 className=" text-red-600  font-semibold text-[20px]">
                 DHAKA ROCK FAST
@@ -146,7 +184,12 @@ const TourSchedule = () => {
             </div>
           </div>
           <hr className="bg-gray-100 2xl:max-w-[1600px] mx-auto" />
-          <div className="grid grid-cols-3 items-end py-2 justify-items-start">
+          <div
+            className="grid grid-cols-3 items-end py-2 justify-items-start"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
             <div className="flex flex-col gap-3">
               <h1 className=" text-red-600  font-semibold text-[20px]">
                 DHAKA ROCK FAST
@@ -167,7 +210,12 @@ const TourSchedule = () => {
             </div>
           </div>
           <hr className="bg-gray-100 2xl:max-w-[1600px] mx-auto" />
-          <div className="grid grid-cols-3 items-end py-2 justify-items-start">
+          <div
+            className="grid grid-cols-3 items-end py-2 justify-items-start"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
             <div className="flex flex-col gap-3">
               <h1 className=" text-red-600  font-semibold text-[20px]">
                 DHAKA ROCK FAST
@@ -188,7 +236,12 @@ const TourSchedule = () => {
             </div>
           </div>
           <hr className="bg-gray-100 2xl:max-w-[1600px] mx-auto" />
-          <div className="grid grid-cols-3 items-end py-2 justify-items-start">
+          <div
+            className="grid grid-cols-3 items-end py-2 justify-items-start"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
             <div className="flex flex-col gap-3">
               <h1 className=" text-red-600  font-semibold text-[20px]">
                 DHAKA ROCK FAST
@@ -209,7 +262,12 @@ const TourSchedule = () => {
             </div>
           </div>
           <hr className="bg-gray-100 2xl:max-w-[1600px] mx-auto" />
-          <div className="grid grid-cols-3 items-end py-2 justify-items-start">
+          <div
+            className="grid grid-cols-3 items-end py-2 justify-items-start"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
             <div className="flex flex-col gap-3">
               <h1 className=" text-red-600  font-semibold text-[20px]">
                 DHAKA BIG SHOT

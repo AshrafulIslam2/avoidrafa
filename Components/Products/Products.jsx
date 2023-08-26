@@ -1,16 +1,32 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Products = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="bg-black py-10 " id="products">
-      <h1 className="text-white font-semibold text-[120px] text-center py-6">
+      <h1
+        className="text-white font-semibold text-[120px] text-center py-6"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         MERCH
       </h1>
-      <div className="grid grid-cols-3 gap-y-4 mx-auto ">
-        <div className=" flex flex-col items-center">
-          <Image src={"/Group.png"} width={400} height={400} alt="avoid rafa" />
+      <div className="grid lg:grid-cols-3 2xl:grid-cols-4 gap-y-4 mx-auto ">
+        <div className="flex flex-col items-center">
+          <Image
+            src={"/Group.png"}
+            width={350}
+            height={350}
+            className=""
+            alt="avoid rafa"
+          />
           <div className="text-white  flex text-[16px]   w-full justify-around">
             <div>
               <h1>Classic T-Shirt</h1>
@@ -36,7 +52,13 @@ const Products = () => {
           </div>
         </div>
         <div className=" flex flex-col items-center">
-          <Image src={"/Group.png"} width={400} height={400} alt="avoid rafa" />
+          <Image
+            src={"/Group.png"}
+            width={350}
+            height={350}
+            className=""
+            alt="avoid rafa"
+          />
           <div className="text-white  flex text-[16px]   w-full justify-around">
             <div>
               <h1>Classic T-Shirt</h1>
@@ -62,7 +84,13 @@ const Products = () => {
           </div>
         </div>
         <div className=" flex flex-col items-center">
-          <Image src={"/Group.png"} width={400} height={400} alt="avoid rafa" />
+          <Image
+            src={"/Group.png"}
+            width={350}
+            height={350}
+            className=""
+            alt="avoid rafa"
+          />
           <div className="text-white  flex text-[16px]   w-full justify-around">
             <div>
               <h1>Classic T-Shirt</h1>
@@ -88,7 +116,13 @@ const Products = () => {
           </div>
         </div>
         <div className=" flex flex-col items-center">
-          <Image src={"/Group.png"} width={400} height={400} alt="avoid rafa" />
+          <Image
+            src={"/Group.png"}
+            width={350}
+            height={350}
+            className=""
+            alt="avoid rafa"
+          />
           <div className="text-white  flex text-[16px]   w-full justify-around">
             <div>
               <h1>Classic T-Shirt</h1>
@@ -114,7 +148,7 @@ const Products = () => {
           </div>
         </div>
       </div>
-      <div className="text-white my-4 flex justify-center">
+      <div className="text-white my-5 flex justify-center">
         <Link
           href={"https://www.facebook.com/hanger18official"}
           target="_blank"
