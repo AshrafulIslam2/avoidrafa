@@ -22,7 +22,7 @@ function ScocialMedila() {
           src={"/tiktok.svg"}
           alt="Avoid Rafa"
           fill
-          className="  fixed left-[40px] top-[60%] z-20  bottom-[60%] animate-pulse w-10 h-10"
+          className="  fixed left-[40px] lg:top-[64%] lg:bottom-[64%] 2xl:top-[60%] z-20  bottom-[60%] animate-pulse w-10 h-10"
         ></Image>
       </Link>
       <Link href={"https://www.facebook.com/avoidrafa"} target="_blank">
@@ -30,7 +30,7 @@ function ScocialMedila() {
           src={"/facebook.svg"}
           alt="Avoid Rafa"
           fill
-          className="  fixed left-[40px] top-[50%] z-20  bottom-[50%] animate-pulse w-10 h-10"
+          className="  fixed left-[40px] lg:top-[52%] lg:bottom-[52%] top-[50%] z-20  bottom-[50%] animate-pulse w-10 h-10"
         ></Image>
       </Link>
       <Link href={"https://www.youtube.com/@avoidrafa"} target="_blank">
@@ -51,7 +51,7 @@ function ScocialMedila() {
           src={"/spotify.svg"}
           alt="Avoid Rafa"
           fill
-          className="  fixed left-[40px] top-[30%] z-20  bottom-[30%] animate-pulse w-10 h-10"
+          className="  fixed left-[40px] lg:top-[28%] lg:bottom-[28%] top-[30%] z-20  bottom-[30%] animate-pulse w-10 h-10"
         ></Image>
       </Link>
     </div>

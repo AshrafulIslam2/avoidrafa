@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import gallery_Image_3 from "@/public/ImagePlaceHolder-1.png";
@@ -10,7 +10,16 @@ import gallery_Image_5 from "@/public/ImagePlaceHolder-4.png";
 import gallery_Image_2 from "@/public/ImagePlaceHolder.png";
 import gallery_Image_4 from "@/public/ImagePlaceHolder-5.png";
 import gallery_Image_6 from "@/public/ImagePlaceHolder-6.png";
+import ImageModal from "./ImageModal";
 const Gallery = () => {
+  const [selectedImage, setSelectedImage] = useState(null);
+  const openModal = (src) => {
+    setSelectedImage(src);
+  };
+
+  const closeModal = () => {
+    setSelectedImage(null);
+  };
   useEffect(() => {
     AOS.init();
   }, []);
@@ -21,6 +30,9 @@ const Gallery = () => {
       data-aos="fade-left"
       data-aos-duration="1000"
     >
+      {/* {selectedImage && (
+        <ImageModal src={selectedImage} alt="Full Image" onClose={closeModal} />
+      )} */}
       <div className="grid grid-cols-12">
         <div className="grid grid-cols-2 col-span-8">
           <h1
@@ -36,6 +48,7 @@ const Gallery = () => {
               className=" inline-block  hover:scale-105 hover:-translate-y-2
               hover:-translate-x-3 transition-all ease-in duration-300 outline outline-black"
               alt="avoid rafa"
+              // onClick={() => openModal(gallery_Image_2)}
             />
           </div>
           <Image
