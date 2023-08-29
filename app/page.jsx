@@ -9,11 +9,13 @@ import Products from "@/Components/Products/Products";
 import ContactUs from "@/Components/ContactUs/ContactUs";
 import ScroolTop from "@/Components/ScrollTop";
 import ScocialMedila from "@/Components/SocialMediaLink";
+import TourSchedule from "@/Components/TourSchedule/TourSchedule";
 const Home = () => {
   return (
     <main className="bg-black">
       <Hero_Section />
       <Announcemnet />
+      <TourSchedule />
       <Album />
       <Gallery />
       {/* <Image src={avoid} alt='avoid-rafa' className='object-cover w-screen h-screen' ></Image> */}
