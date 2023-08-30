@@ -22,7 +22,6 @@ export default function RootLayout({
       <body cz-shortcut-listen="true" className={Bebas_Neues.className} >
         <Navigation />
           {children}
-         
         <Footer/>
       </body>
     </html>
