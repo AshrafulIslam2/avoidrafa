@@ -1,9 +1,7 @@
-"use client"
 import './globals.css'
 import { Bebas_Neue } from 'next/font/google'
 import Navigation from '@/Components/shared/Navigation'
 import Footer from '@/Components/shared/Footer'
-import { ParallaxProvider } from 'react-scroll-parallax';
 
 
 const Bebas_Neues = Bebas_Neue({ weight: "400", preload: false })
@@ -23,9 +21,8 @@ export default function RootLayout({
     <html lang="en" className='scroll-smooth'>
       <body cz-shortcut-listen="true" className={Bebas_Neues.className} >
         <Navigation />
-        <ParallaxProvider>
           {children}
-          </ParallaxProvider>
+         
         <Footer/>
       </body>
     </html>
