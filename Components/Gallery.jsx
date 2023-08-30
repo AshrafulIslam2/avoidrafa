@@ -47,48 +47,48 @@ const Gallery = () => {
               src={gallery_Image_2}
               className=" inline-block  hover:scale-105 hover:-translate-y-2
               hover:-translate-x-3 transition-all ease-in duration-300 outline outline-black"
-              alt="avoid rafa"
+              alt="avoidrafa"
               // onClick={() => openModal(gallery_Image_2)}
             />
           </div>
           <Image
             src={gallery_Image_3}
             className="inline-block  hover:scale-105  col-span-2 transition-all ease-out duration-300 outline outline-black max-w-full h-full object-cover"
-            alt="avoid rafa"
+            alt="avoidrafa"
           />
           <Image
             src={gallery_Image_4}
             className=" inline-block  hover:scale-105 max-w-full h-full  transition-all ease-in-out duration-500 outline outline-black object-cover"
-            alt="avoid rafa"
+            alt="avoidrafa"
           />
           <Image
             src={gallery_Image_5}
             className=" inline-block  hover:scale-105 max-w-full  h-full transition-all ease-in-out duration-500 outline outline-black object-cover"
-            alt="avoid rafa"
+            alt="avoidrafa"
           />
           <Image
             src={gallery_Image_6}
             className=" inline-block  hover:scale-105 max-w-full    transition-all ease-in-out duration-500 outline outline-black col-span-2 object-cover "
-            alt="avoid rafa"
+            alt="avoidrafa"
           />
 
-          {/* <Image src={gallery_Image_4} alt="avoid rafa" />
-        <Image src={gallery_Image_3} alt="avoid rafa" />
-        <Image src={gallery_Image_7} alt="avoid rafa" />
-        <Image src={gallery_Image_6} alt="avoid rafa" /> 
-        <Image src={gallery_Image_5} alt="avoid rafa" /> */}
+          {/* <Image src={gallery_Image_4} alt="avoidrafa" />
+        <Image src={gallery_Image_3} alt="avoidrafa" />
+        <Image src={gallery_Image_7} alt="avoidrafa" />
+        <Image src={gallery_Image_6} alt="avoidrafa" /> 
+        <Image src={gallery_Image_5} alt="avoidrafa" /> */}
         </div>
         <div className="col-span-4">
           <Image
             src={gallery_Image_1}
-            alt="avoid rafa"
+            alt="avoidrafa"
             className=" inline-block  hover:scale-105 transition-all ease-in-out duration-500 outline outline-black"
           />
           <div>
             <Image
               src={gallery_Image_7}
               className=" transition-all ease-in-out duration-500 outline outline-black  inline-block  hover:scale-105 md:h-[440px] lg:h-[524px] 2xl:h-[565px]  max-w-full object-cover"
-              alt="avoid rafa"
+              alt="avoidrafa"
             />
           </div>
         </div>

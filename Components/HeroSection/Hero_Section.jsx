@@ -19,7 +19,7 @@ function Hero_Section() {
     //   src={"/Render.mp4"}
     //   className="h-screen w-screen"
     // />
-    // <Image src={"/heroimage.png"} alt="Avoid Rafa" width={1920} height={1134} />
+    // <Image src={"/heroimage.png"} alt="avoidrafa" width={1920} height={1134} />
   );
 }
 

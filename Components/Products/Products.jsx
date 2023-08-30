@@ -25,7 +25,7 @@ const Products = () => {
             width={350}
             height={350}
             className=""
-            alt="avoid rafa"
+            alt="avoidrafa"
           />
           <div className="text-white  flex text-[16px]   w-full justify-around">
             <div>
@@ -57,7 +57,7 @@ const Products = () => {
             width={350}
             height={350}
             className=""
-            alt="avoid rafa"
+            alt="avoidrafa"
           />
           <div className="text-white  flex text-[16px]   w-full justify-around">
             <div>
@@ -89,7 +89,7 @@ const Products = () => {
             width={350}
             height={350}
             className=""
-            alt="avoid rafa"
+            alt="avoidrafa"
           />
           <div className="text-white  flex text-[16px]   w-full justify-around">
             <div>
@@ -121,7 +121,7 @@ const Products = () => {
             width={350}
             height={350}
             className=""
-            alt="avoid rafa"
+            alt="avoidrafa"
           />
           <div className="text-white  flex text-[16px]   w-full justify-around">
             <div>
