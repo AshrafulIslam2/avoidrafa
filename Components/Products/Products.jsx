@@ -10,7 +10,7 @@ const Products = () => {
     AOS.init();
   }, []);
   return (
-    <div className="bg-black py-10 " id="products">
+    <div className="bg-[#161616] py-10 " id="products">
       <h1
         className="text-white font-semibold text-[120px] text-center py-6"
         data-aos="fade-up"

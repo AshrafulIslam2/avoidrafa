@@ -25,7 +25,7 @@ const Gallery = () => {
   }, []);
   return (
     <div
-      className="bg-black  md:w-[880px] lg:w-[940px] xl:w-[1150px] 2xl:w-[1320px] mx-auto"
+      className="bg-[#161616]  md:w-[880px] lg:w-[940px] xl:w-[1150px] 2xl:w-[1320px] mx-auto"
       id="gallery"
       data-aos="zoom-in"
       data-aos-duration="1000"

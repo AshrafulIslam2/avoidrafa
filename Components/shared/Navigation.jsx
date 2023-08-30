@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Navigation = () => {
   return (
-    <div className="bg-black flex items-center justify-around top-0 sticky z-40 ">
+    <div className="bg-[#161616] flex items-center justify-around top-0 sticky z-40 ">
       <Image
         src="/Group_73.svg"
         alt="Logo"

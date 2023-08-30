@@ -12,7 +12,7 @@ import ScocialMedila from "@/Components/SocialMediaLink";
 import TourSchedule from "@/Components/TourSchedule/TourSchedule";
 const Home = () => {
   return (
-    <main className="bg-black">
+    <main className="bg-[#161616]">
       <Hero_Section />
       <Announcemnet />
       <TourSchedule />

@@ -5,7 +5,7 @@ import TourSchedule from "@/Components/TourSchedule/TourSchedule";
 function Announcemnet() {
   return (
     <div
-      className="bg-black lg:max-w-[940px] xl:max-w-[1240px] 2xl:max-w-[1320px] mx-auto"
+      className="bg-[#161616] lg:max-w-[940px] xl:max-w-[1240px] 2xl:max-w-[1320px] mx-auto"
       id="news"
     >
       <div className="grid grid-cols-2">

@@ -141,7 +141,7 @@ function Album() {
           const newPlayerStates = Array(playerStates.length).fill(false);
           setPlayerStates(newPlayerStates);
         }}
-        className="bg-black py-10"
+        className="bg-[#161616] py-10"
         // onSwiper={(swiper) => console.log(swiper)}
       >
         <div className="absolute  top-[400px] xl:top-[530px] 2xl:top-[792px] right-[80px] sm:-bottom-[280px] sm:right-[490px] z-10 flex items-center">
@@ -185,7 +185,7 @@ function Album() {
         </div>
         {SongsBank.Albums.map((album, Index) => (
           <SwiperSlide key={Index}>
-            <div className="bg-black">
+            <div className="bg-[#161616]">
               <div className="flex justify-center py-7 md:px-[24px] 2xl:px-0   gap-x-5">
                 <div className="w-[500px]   2xl:h-[1036px] border border-[#959595]">
                   <Image

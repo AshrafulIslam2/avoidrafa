@@ -22,7 +22,7 @@ function ScocialMedila() {
           src={"/tiktok.svg"}
           alt="Avoid Rafa"
           fill
-          className="  fixed left-[40px] lg:top-[64%] lg:bottom-[64%] 2xl:top-[60%] z-20  bottom-[60%] animate-pulse w-10 h-10"
+          className="  fixed left-[40px] lg:top-[64%] lg:bottom-[64%] 2xl:top-[64%] z-20  bottom-[60%] animate-pulse w-10 h-10"
         ></Image>
       </Link>
       <Link href={"https://www.facebook.com/avoidrafa"} target="_blank">

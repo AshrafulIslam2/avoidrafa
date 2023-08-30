@@ -4,7 +4,7 @@ import ScroolTop from "../ScrollTop";
 
 const Footer = () => {
   return (
-    <div className="bg-black">
+    <div className="bg-[#161616]">
       <div className="flex justify-between border-4 border-white mx-[44px] py-[50px]">
         <Image
           src="/Group_73.svg"
