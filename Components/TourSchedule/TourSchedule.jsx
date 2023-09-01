@@ -44,7 +44,7 @@ const TourSchedule = () => {
             >
               <div className="flex flex-col gap-3 items-start">
                 <h1 className=" text-red-600  font-semibold text-[20px] lg:text-[16px] ">
-                  CHATTAGRAM ROCK FAST
+                  CHATTAGRAM ROCK FEST
                 </h1>
                 <h1 className="text-white  font-semibold text-[20px] lg:text-[16px]">
                   DHAKA UNIVERSITY
@@ -70,7 +70,7 @@ const TourSchedule = () => {
             >
               <div className="flex flex-col gap-3 items-start">
                 <h1 className=" text-red-600  font-semibold text-[20px] lg:text-[16px]">
-                  DHAKA ROCK FAST
+                  DHAKA ROCK FEST
                 </h1>
                 <h1 className="  text-white  font-semibold text-[20px] lg:text-[16px]">
                   DHAKA UNIVERSITY
@@ -96,7 +96,7 @@ const TourSchedule = () => {
             >
               <div className="flex flex-col gap-3">
                 <h1 className=" text-red-600  font-semibold text-[20px] lg:text-[16px]">
-                  CHATTAGRAM ROCK FAST
+                  CHATTAGRAM ROCK FEST
                 </h1>
                 <h1 className="  text-white  font-semibold text-[20px] lg:text-[16px]">
                   M.A AZIZ STADIUM
@@ -122,7 +122,7 @@ const TourSchedule = () => {
             >
               <div className="flex flex-col gap-3">
                 <h1 className=" text-red-600  font-semibold text-[20px] lg:text-[16px]">
-                  KHULNA ROCK FAST
+                  KHULNA ROCK FEST
                 </h1>
                 <h1 className="  text-white  font-semibold text-[20px] lg:text-[16px]">
                   KHULNA STADIUM
@@ -148,7 +148,7 @@ const TourSchedule = () => {
             >
               <div className="flex flex-col gap-3">
                 <h1 className=" text-red-600  font-semibold text-[20px] lg:text-[16px]">
-                  DHAKA ROCK FAST
+                  DHAKA ROCK FEST
                 </h1>
                 <h1 className="  text-white  font-semibold text-[20px] lg:text-[16px]">
                   ARMY STADIUM
@@ -174,7 +174,7 @@ const TourSchedule = () => {
             >
               <div className="flex flex-col gap-3">
                 <h1 className=" text-red-600  font-semibold text-[20px] lg:text-[16px]">
-                  DHAKA ROCK FAST
+                  DHAKA ROCK FEST
                 </h1>
                 <h1 className="  text-white  font-semibold text-[20px] lg:text-[16px]">
                   ARMY STADIUM
@@ -200,7 +200,7 @@ const TourSchedule = () => {
             >
               <div className="flex flex-col gap-3">
                 <h1 className=" text-red-600  font-semibold text-[20px] lg:text-[16px]">
-                  DHAKA ROCK FAST
+                  DHAKA ROCK FEST
                 </h1>
                 <h1 className="  text-white  font-semibold text-[20px] lg:text-[16px]">
                   ARMY STADIUM
@@ -226,7 +226,7 @@ const TourSchedule = () => {
             >
               <div className="flex flex-col gap-3">
                 <h1 className=" text-red-600  font-semibold text-[20px] lg:text-[16px]">
-                  DHAKA ROCK FAST
+                  DHAKA ROCK FEST
                 </h1>
                 <h1 className="  text-white  font-semibold text-[20px] lg:text-[16px]">
                   DHAKA UNIVERSITY
@@ -252,7 +252,7 @@ const TourSchedule = () => {
             >
               <div className="flex flex-col gap-3">
                 <h1 className=" text-red-600  font-semibold text-[20px] lg:text-[16px]">
-                  DHAKA ROCK FAST
+                  DHAKA ROCK FEST
                 </h1>
                 <h1 className="  text-white  font-semibold text-[20px] lg:text-[16px]">
                   DHAKA UNIVERSITY

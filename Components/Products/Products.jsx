@@ -18,7 +18,7 @@ const Products = () => {
       >
         MERCH
       </h1>
-      <div className="grid lg:grid-cols-3 2xl:grid-cols-4 gap-y-4 mx-auto ">
+      <div className="grid lg:grid-cols-1 2xl:grid-cols-1 gap-y-4 mx-auto ">
         <div className="flex flex-col items-center">
           <Image
             src={"/Group.png"}
@@ -51,7 +51,7 @@ const Products = () => {
             <h1>250 BDT</h1>
           </div>
         </div>
-        <div className=" flex flex-col items-center">
+        {/* <div className=" flex flex-col items-center">
           <Image
             src={"/Group.png"}
             width={350}
@@ -146,7 +146,7 @@ const Products = () => {
             </div>
             <h1>250 BDT</h1>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="text-white my-5 flex justify-center">
         <Link

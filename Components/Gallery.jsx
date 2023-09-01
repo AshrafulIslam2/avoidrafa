@@ -3,8 +3,8 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import gallery_Image_3 from "@/public/ImagePlaceHolder-1.png";
-import gallery_Image_1 from "@/public/ImagePlaceHolder-2.png";
+import gallery_Image_3 from "@/public/ImagePlaceHolder-03.png";
+import gallery_Image_1 from "@/public/ImagePlaceHolder00.png";
 import gallery_Image_7 from "@/public/ImagePlaceHolder-3.png";
 import gallery_Image_5 from "@/public/ImagePlaceHolder-4.png";
 import gallery_Image_2 from "@/public/ImagePlaceHolder.png";
@@ -68,7 +68,7 @@ const Gallery = () => {
           />
           <Image
             src={gallery_Image_6}
-            className=" inline-block  hover:scale-105 max-w-full    transition-all ease-in-out duration-500 outline outline-black col-span-2 object-   "
+            className=" inline-block  hover:scale-105 max-w-full    transition-all ease-in-out duration-500 outline outline-black col-span-2 object-cover "
             alt="avoidrafa"
           />
 
@@ -87,7 +87,7 @@ const Gallery = () => {
           <div>
             <Image
               src={gallery_Image_7}
-              className=" transition-all ease-in-out duration-500 outline outline-black  inline-block  hover:scale-105 md:h-[440px] lg:h-[524px] 2xl:h-[565px]  max-w-full object-cover"
+              className=" transition-all ease-in-out duration-500 outline outline-black  inline-block  hover:scale-105 md:h-[440px] lg:h-[524px] 2xl:h-[530px]  max-w-full object-cover"
               alt="avoidrafa"
             />
           </div>
