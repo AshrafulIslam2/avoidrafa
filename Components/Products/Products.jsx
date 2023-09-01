@@ -18,7 +18,7 @@ const Products = () => {
       >
         MERCH
       </h1>
-      <div className="grid lg:grid-cols-1 2xl:grid-cols-1 gap-y-4 mx-auto ">
+      <div className="grid lg:grid-cols-1 2xl:grid-cols-1 gap-y-4 mx-auto  ">
         <div className="flex flex-col items-center">
           <Image
             src={"/Group.png"}
@@ -27,7 +27,7 @@ const Products = () => {
             className=""
             alt="avoidrafa"
           />
-          <div className="text-white  flex text-[16px]   w-full justify-around">
+          <div className="text-white  flex text-[16px]   w-full justify-center gap-[11.5rem] items-center">
             <div>
               <h1>Classic T-Shirt</h1>
               <div className="flex  justify-around ">
