@@ -9,7 +9,7 @@ import gallery_Image_7 from "@/public/ImagePlaceHolder-3.png";
 import gallery_Image_5 from "@/public/ImagePlaceHolder-4.png";
 import gallery_Image_2 from "@/public/ImagePlaceHolder.png";
 import gallery_Image_4 from "@/public/ImagePlaceHolder-5.png";
-import gallery_Image_6 from "@/public/ImagePlaceHolder-6.png";
+import gallery_Image_6 from "@/public/galleryimage.png";
 import ImageModal from "./ImageModal";
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -68,7 +68,7 @@ const Gallery = () => {
           />
           <Image
             src={gallery_Image_6}
-            className=" inline-block  hover:scale-105 max-w-full    transition-all ease-in-out duration-500 outline outline-black col-span-2 object-cover "
+            className=" inline-block  hover:scale-105 max-w-full    transition-all ease-in-out duration-500 outline outline-black col-span-2 object-   "
             alt="avoidrafa"
           />
 

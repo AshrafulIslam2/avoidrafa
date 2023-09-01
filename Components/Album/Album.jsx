@@ -141,48 +141,47 @@ function Album() {
           const newPlayerStates = Array(playerStates.length).fill(false);
           setPlayerStates(newPlayerStates);
         }}
-        className="bg-[#161616] py-10"
+        className="bg-[#161616] py-10  relative"
         // onSwiper={(swiper) => console.log(swiper)}
       >
-        <div className="absolute  top-[400px] xl:top-[530px] 2xl:top-[792px] right-[80px] sm:-bottom-[280px] sm:right-[490px] z-10 flex items-center">
-          <button className="image-swiper-button-prev  w-16 h-16 ">
-            <svg
-              width="114"
-              height="40"
-              viewBox="0 0 114 40"
-              fill="none"
-              className="absolute "
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g clipPath="url(#clip0_3_220)">
-                <path
-                  d="M22.8248 20.3805L91.7484 20.3805M28.3584 13.5L22.2516 20.5463L28.3584 26.5356"
-                  stroke="white"
-                  strokeWidth="2"
-                />
-              </g>
-              <rect
-                x="0.5"
-                y="0.5"
-                width="39"
-                height="113"
-                rx="19.5"
-                transform="matrix(8.74228e-08 1 1 -8.74228e-08 4.37114e-08 1.52151e-05)"
-                stroke="#807E7E"
+        <button className="image-swiper-button-prev  absolute right-[400px]  2xl:right-[550px]">
+          <svg
+            width="114"
+            height="40"
+            viewBox="0 0 114 40"
+            fill="none"
+            className="absolute "
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clipPath="url(#clip0_3_220)">
+              <path
+                d="M22.8248 20.3805L91.7484 20.3805M28.3584 13.5L22.2516 20.5463L28.3584 26.5356"
+                stroke="white"
+                strokeWidth="2"
               />
-              <defs>
-                <clipPath id="clip0_3_220">
-                  <rect
-                    width="13"
-                    height="72"
-                    fill="white"
-                    transform="matrix(8.74228e-08 1 1 -8.74228e-08 21 13.5)"
-                  />
-                </clipPath>
-              </defs>
-            </svg>
-          </button>
-        </div>
+            </g>
+            <rect
+              x="0.5"
+              y="0.5"
+              width="39"
+              height="113"
+              rx="19.5"
+              transform="matrix(8.74228e-08 1 1 -8.74228e-08 4.37114e-08 1.52151e-05)"
+              stroke="#807E7E"
+            />
+            <defs>
+              <clipPath id="clip0_3_220">
+                <rect
+                  width="13"
+                  height="72"
+                  fill="white"
+                  transform="matrix(8.74228e-08 1 1 -8.74228e-08 21 13.5)"
+                />
+              </clipPath>
+            </defs>
+          </svg>
+        </button>
+
         {SongsBank.Albums.map((album, Index) => (
           <SwiperSlide key={Index}>
             <div className="bg-[#161616]">
@@ -240,60 +239,59 @@ function Album() {
                   </div>
                 </div>
                 <div>
-                  <h1 className="md:text-[86px] 2xl:text-[194px] text-white font-semibold leading-none tracking-normal">
+                  {/* <h1 className="md:text-[86px] 2xl:text-[194px] text-white font-semibold leading-none tracking-normal">
                     {album}
-                  </h1>
+                  </h1> */}
                   <Image
                     src={"/Image8.png"}
                     width={855}
                     height={855}
                     alt="ash"
-                    className="md:w-[655px]  xl:w-[655px]  2xl:w-[855px] 2xl:h-[850px]"
+                    className="lg: xl: 2xl:h-[1040px]"
                   />
                 </div>
               </div>
             </div>
           </SwiperSlide>
         ))}
-        <div className="absolute top-[440px] xl:top-[570px] 2xl:top-[827px] right-[30px] sm:-bottom-[280px] sm:right-[290px] z-10 flex items-center">
-          <button className="image-swiper-button-next ">
-            <svg
-              width="114"
-              height="40"
-              viewBox="0 0 114 40"
-              fill="none"
-              className="relative top-0 right-4"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g clipPath="url(#clip0_92_95)">
-                <path
-                  d="M91.1752 19.6195L22.2516 19.6195M85.6416 26.5L91.7484 19.4537L85.6416 13.4644"
-                  stroke="white"
-                  strokeWidth="2"
-                />
-              </g>
-              <rect
-                x="-0.5"
-                y="-0.5"
-                width="39"
-                height="113"
-                rx="19.5"
-                transform="matrix(0 -1 -1 0 113 39)"
-                stroke="#807E7E"
+
+        <button className="image-swiper-button-next  absolute right-[100px] 2xl:right-[250px]">
+          <svg
+            width="114"
+            height="40"
+            viewBox="0 0 114 40"
+            fill="none"
+            className="relative top-0 right-4"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clipPath="url(#clip0_92_95)">
+              <path
+                d="M91.1752 19.6195L22.2516 19.6195M85.6416 26.5L91.7484 19.4537L85.6416 13.4644"
+                stroke="white"
+                strokeWidth="2"
               />
-              <defs>
-                <clipPath id="clip0_92_95">
-                  <rect
-                    width="13"
-                    height="72"
-                    fill="white"
-                    transform="matrix(0 -1 -1 0 93 26.5)"
-                  />
-                </clipPath>
-              </defs>
-            </svg>
-          </button>
-        </div>
+            </g>
+            <rect
+              x="-0.5"
+              y="-0.5"
+              width="39"
+              height="113"
+              rx="19.5"
+              transform="matrix(0 -1 -1 0 113 39)"
+              stroke="#807E7E"
+            />
+            <defs>
+              <clipPath id="clip0_92_95">
+                <rect
+                  width="13"
+                  height="72"
+                  fill="white"
+                  transform="matrix(0 -1 -1 0 93 26.5)"
+                />
+              </clipPath>
+            </defs>
+          </svg>
+        </button>
       </Swiper>
     </div>
   );
