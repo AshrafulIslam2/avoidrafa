@@ -11,6 +11,7 @@ import gallery_Image_2 from "@/public/ImagePlaceHolder.png";
 import gallery_Image_4 from "@/public/ImagePlaceHolder-5.png";
 import gallery_Image_6 from "@/public/galleryimage.png";
 import ImageModal from "./ImageModal";
+import Link from "next/link";
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
   const openModal = (src) => {
@@ -35,13 +36,15 @@ const Gallery = () => {
       )} */}
       <div className="grid grid-cols-12">
         <div className="grid grid-cols-2 col-span-8">
-          <h1
-            className=" col-span-2  text-white font-bold md:text-[100px] lg:text-[150px] 2xl:text-[170px] inline-block  hover:scale-105"
-            data-aos="zoom-in"
-            data-aos-duration="1000"
-          >
-            Gallery
-          </h1>
+          <Link href={"/gallery"}>
+            <h1
+              className=" col-span-2  text-white font-bold md:text-[100px] lg:text-[150px] 2xl:text-[170px] inline-block  hover:scale-105"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
+              Gallery
+            </h1>
+          </Link>
           <div className="flex justify-end col-span-2">
             <Image
               src={gallery_Image_2}

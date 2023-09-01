@@ -15,7 +15,7 @@ const Navigation = () => {
 
       <div className="">
         <Link
-          href={"#/"}
+          href={"/"}
           className="text-white sm:px-[30px] lg:px-[40px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border hover:border-white text-[14px] xl:text-base p"
         >
           HOME
