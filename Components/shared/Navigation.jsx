@@ -21,37 +21,37 @@ const Navigation = () => {
           HOME
         </Link>
         <Link
-          href={"#news"}
+          href={"/#news"}
           className="text-white sm:px-[30px] lg:px-[40px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border hover:border-white text-[14px] xl:text-base"
         >
           LATEST
         </Link>
         <Link
-          href={"#tour"}
+          href={"/#tour"}
           className="text-white sm:px-[30px] lg:px-[40px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border hover:border-white text-[14px] xl:text-base"
         >
           TOUR
         </Link>
         <Link
-          href={"#album"}
+          href={"/#album"}
           className="text-white sm:px-[30px] lg:px-[40px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border hover:border-white text-[14px] xl:text-base"
         >
           ALBUM
         </Link>
         <Link
-          href={"#gallery"}
+          href={"/#gallery"}
           className="text-white sm:px-[30px] lg:px-[40px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border hover:border-white text-[14px] xl:text-base"
         >
           GALLERY
         </Link>
         <Link
-          href={"#products"}
+          href={"/#products"}
           className="text-white sm:px-[30px] lg:px-[40px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border hover:border-white text-[14px] xl:text-base"
         >
           MERCH
         </Link>
         <Link
-          href={"#contact"}
+          href={"/#contact"}
           className="text-white sm:px-[30px] lg:px-[20px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border mr-3 xl:mr-0 hover:border-white text-[14px] xl:text-base"
         >
           BOOKING
