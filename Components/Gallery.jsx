@@ -36,15 +36,14 @@ const Gallery = () => {
       )} */}
       <div className="grid grid-cols-12">
         <div className="grid grid-cols-2 col-span-8">
-          <Link href={"/gallery"}>
-            <h1
-              className=" col-span-2  text-white font-bold md:text-[100px] lg:text-[150px] 2xl:text-[170px] inline-block  hover:scale-105"
-              data-aos="zoom-in"
-              data-aos-duration="1000"
-            >
-              Gallery
-            </h1>
-          </Link>
+          <h1
+            className=" col-span-2  text-white font-bold md:text-[100px] lg:text-[150px] 2xl:text-[170px] inline-block  hover:scale-105"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
+            Gallery
+          </h1>
+
           <div className="flex justify-end col-span-2">
             <Image
               src={gallery_Image_2}
@@ -95,6 +94,13 @@ const Gallery = () => {
             />
           </div>
         </div>
+      </div>
+      <div className="flex justify-center py-10">
+        <Link href={"/gallery"}>
+          <button className="text-white py-1 px-4  border border-white rounded-sm">
+            See More
+          </button>
+        </Link>
       </div>
     </div>
   );
