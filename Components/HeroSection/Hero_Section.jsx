@@ -19,12 +19,14 @@ function Hero_Section() {
     // //   src={"/Render.mp4"}
     // //   className="h-screen w-screen"
     // // />
-    <Image
-      src={"/hero-section.png"}
-      alt="avoidrafa"
-      width={1920}
-      height={1134}
-    />
+    <div className="flex justify-center">
+      <Image
+        src={"/hero-section.png"}
+        alt="avoidrafa"
+        width={1920}
+        height={1134}
+      />
+    </div>
   );
 }
 
