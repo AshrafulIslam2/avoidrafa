@@ -28,7 +28,7 @@ const ImageModal = ({ isOpen, onClose, imageSrc }) => {
       <Image
         src={imageSrc}
         alt="Full View"
-        className="object-contain hover:scale-150 hover:cursor-zoom-in"
+        className="object-contain active:scale-150 cursor-zoom-in active:cursor-zoom-out"
         // className="lg:h-[450px]  xl:w-[600px] xl:h-[600px] 2xl:h-[700px] object-cover"
       />
     </Modal>
