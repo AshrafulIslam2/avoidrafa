@@ -10,17 +10,30 @@ import gallery_Image_5 from "@/public/ImagePlaceHolder-4.png";
 import gallery_Image_2 from "@/public/ImagePlaceHolder.png";
 import gallery_Image_4 from "@/public/ImagePlaceHolder-5.png";
 import gallery_Image_6 from "@/public/galleryimage.png";
-import ImageModal from "./ImageModal";
+import full_View_Image01 from "@/public/FullViewImage01.png";
+import full_View_Image02 from "@/public/FullViewImage02.png";
+import full_View_Image03 from "@/public/FullViewImage03.png";
+import full_View_Image04 from "@/public/FullViewImage04.png";
+import full_View_Image05 from "@/public/FullViewImage05.png";
+import full_View_Image06 from "@/public/FullViewImage06.png";
+import ImageModal from "@/Components/Gallerys/ImageModal";
 import Link from "next/link";
 const Gallery = () => {
-  const [selectedImage, setSelectedImage] = useState(null);
-  const openModal = (src) => {
-    setSelectedImage(src);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState("");
+
+  const openModal = (imageSrc) => {
+    setSelectedImage(imageSrc);
+    setIsModalOpen(true);
+    document.body.classList.add("modal-open");
   };
 
   const closeModal = () => {
-    setSelectedImage(null);
+    setSelectedImage("");
+    setIsModalOpen(false);
+    document.body.classList.remove("modal-open");
   };
+
   useEffect(() => {
     AOS.init();
   }, []);
@@ -48,30 +61,34 @@ const Gallery = () => {
             <Image
               src={gallery_Image_2}
               className=" inline-block  hover:scale-105 hover:-translate-y-2
-              hover:-translate-x-3 transition-all ease-in duration-300 outline outline-black"
+              hover:-translate-x-3 transition-all ease-in duration-300 outline outline-black cursor-pointer"
               alt="avoidrafa"
-              // onClick={() => openModal(gallery_Image_2)}
+              onClick={() => openModal(full_View_Image03)}
             />
           </div>
           <Image
             src={gallery_Image_3}
-            className="inline-block  hover:scale-105  col-span-2 transition-all ease-out duration-300 outline outline-black max-w-full h-full object-cover"
+            className="inline-block  hover:scale-105  col-span-2 transition-all ease-out duration-300 outline outline-black cursor-pointer max-w-full h-full object-cover"
             alt="avoidrafa"
+            onClick={() => openModal(full_View_Image01)}
           />
           <Image
             src={gallery_Image_4}
-            className=" inline-block  hover:scale-105 max-w-full h-full  transition-all ease-in-out duration-500 outline outline-black object-cover"
+            className=" inline-block  hover:scale-105 max-w-full h-full  transition-all ease-in-out duration-500 outline outline-black cursor-pointer object-cover"
             alt="avoidrafa"
+            onClick={() => openModal(full_View_Image05)}
           />
           <Image
             src={gallery_Image_5}
-            className=" inline-block  hover:scale-105 max-w-full  h-full transition-all ease-in-out duration-500 outline outline-black object-cover"
+            className=" inline-block  hover:scale-105 max-w-full  h-full transition-all ease-in-out duration-500 outline outline-black cursor-pointer object-cover"
             alt="avoidrafa"
+            onClick={() => openModal(full_View_Image02)}
           />
           <Image
             src={gallery_Image_6}
-            className=" inline-block  hover:scale-105 max-w-full    transition-all ease-in-out duration-500 outline outline-black col-span-2 object-cover "
+            className=" inline-block  hover:scale-105 max-w-full    transition-all ease-in-out duration-500 outline outline-black cursor-pointer col-span-2 object-cover "
             alt="avoidrafa"
+            onClick={() => openModal(full_View_Image06)}
           />
 
           {/* <Image src={gallery_Image_4} alt="avoidrafa" />
@@ -84,13 +101,15 @@ const Gallery = () => {
           <Image
             src={gallery_Image_1}
             alt="avoidrafa"
-            className=" inline-block  hover:scale-105 transition-all ease-in-out duration-500 outline outline-black"
+            className=" inline-block  hover:scale-105 transition-all ease-in-out duration-500 outline outline-black cursor-pointer"
+            onClick={() => openModal(gallery_Image_1)}
           />
           <div>
             <Image
               src={gallery_Image_7}
-              className=" transition-all ease-in-out duration-500 outline outline-black  inline-block  hover:scale-105 md:h-[440px] lg:h-[524px] 2xl:h-[530px]  max-w-full object-cover"
+              className=" transition-all ease-in-out duration-500 outline outline-black cursor-pointer  inline-block  hover:scale-105 md:h-[440px] lg:h-[524px] 2xl:h-[530px]  max-w-full object-cover"
               alt="avoidrafa"
+              onClick={() => openModal(full_View_Image04)}
             />
           </div>
         </div>
@@ -102,6 +121,11 @@ const Gallery = () => {
           </button>
         </Link>
       </div>
+      <ImageModal
+        isOpen={isModalOpen}
+        onClose={closeModal}
+        imageSrc={selectedImage}
+      />
     </div>
   );
 };
