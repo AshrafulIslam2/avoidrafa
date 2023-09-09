@@ -44,15 +44,15 @@ const TourSchedule = () => {
             >
               <div className="flex flex-col gap-3 items-start">
                 <h1 className=" text-red-600  font-semibold text-[20px] lg:text-[16px] ">
-                  CHATTAGRAM ROCK FEST
+                  AVOIDRAFA U.S.A TOUR
                 </h1>
                 <h1 className="text-white  font-semibold text-[20px] lg:text-[16px]">
-                  DHAKA UNIVERSITY
+                  TBD-WEST PALM BEACH,FLORIDA
                 </h1>
               </div>
               <div className="flex justify-center w-full">
                 <h1 className="text-white   font-semibold text-[20px] lg:text-[16px]">
-                  31 DECEMBER 2023
+                  13TH JANUARY
                 </h1>
               </div>
               <div className="flex justify-end w-full">
@@ -78,7 +78,7 @@ const TourSchedule = () => {
               </div>
               <div className="flex justify-center w-full">
                 <h1 className="  text-white  font-semibold text-[20px] lg:text-[16px]">
-                  1 OCTOBAR 2023
+                  1 OCTOBER 2023
                 </h1>
               </div>
               <div className="flex justify-end w-full">
