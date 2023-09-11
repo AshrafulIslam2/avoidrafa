@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import upcoming from "@/public/UPCOMING.png";
 
 const TourSchedule = () => {
   useEffect(() => {
@@ -18,24 +19,19 @@ const TourSchedule = () => {
       >
         TOUR SCHEDULE
       </h1>
-      <div className="relative">
-        <div className="absolute inset-0">
+      <div
+        className=""
+        style={{
+          backgroundImage: 'url("/MaskGroup34.png")',
+        }}
+      >
+        <div className="grid grid-cols-1 lg:grid-cols-2  gap-8 mx-[24px] 2xl:max-w-[1420px] 2xl:mx-auto place-items-center">
           <Image
-            src="/MaskGroup34.png"
+            src={upcoming}
             alt="background image"
-            className="blur opacity-1"
-            fill
+            className="object-fill w-auto h-auto "
           />
-        </div>
-
-        <div className="grid grid-cols-12  gap-8 mx-[24px] 2xl:max-w-[1420px] 2xl:mx-auto">
-          <Image
-            src="/UPCOMING.png"
-            alt="background image"
-            className="z-10 relative md:col-span-6 lg:col-span-6 xl:col-span-5  object-fill "
-            fill
-          />
-          <div className=" md:col-span-6 lg:col-span-6 xl:col-span-7 relative z-10  h-">
+          <div className="">
             <div
               className="grid grid-cols-3 items-end py-2 justify-items-start"
               data-aos="fade-up"
@@ -56,7 +52,7 @@ const TourSchedule = () => {
                 </h1>
               </div>
               <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 lg:px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
+                <button className=" rounded-sm border border-white py-2 px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
                   BUY TICKETS
                 </button>
               </div>
@@ -70,7 +66,7 @@ const TourSchedule = () => {
             >
               <div className="flex flex-col gap-3 items-start">
                 <h1 className=" text-red-600  font-semibold text-[20px] lg:text-[16px]">
-                  DHAKA ROCK FEST
+                  DHAKA FEST
                 </h1>
                 <h1 className="  text-white  font-semibold text-[20px] lg:text-[16px]">
                   DHAKA UNIVERSITY
@@ -82,7 +78,7 @@ const TourSchedule = () => {
                 </h1>
               </div>
               <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 lg:px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
+                <button className=" rounded-sm border border-white py-2 px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
                   BUY TICKETS
                 </button>
               </div>
@@ -108,7 +104,7 @@ const TourSchedule = () => {
                 </h1>
               </div>
               <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 lg:px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
+                <button className=" rounded-sm border border-white py-2 px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
                   BUY TICKETS
                 </button>
               </div>
@@ -134,7 +130,7 @@ const TourSchedule = () => {
                 </h1>
               </div>
               <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 lg:px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
+                <button className=" rounded-sm border border-white py-2 px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
                   BUY TICKETS
                 </button>
               </div>
@@ -160,7 +156,7 @@ const TourSchedule = () => {
                 </h1>
               </div>
               <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 lg:px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
+                <button className=" rounded-sm border border-white py-2 px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
                   BUY TICKETS
                 </button>
               </div>
@@ -186,7 +182,7 @@ const TourSchedule = () => {
                 </h1>
               </div>
               <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 lg:px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
+                <button className=" rounded-sm border border-white py-2 px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
                   BUY TICKETS
                 </button>
               </div>
@@ -212,7 +208,7 @@ const TourSchedule = () => {
                 </h1>
               </div>
               <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 lg:px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
+                <button className=" rounded-sm border border-white py-2 px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
                   BUY TICKETS
                 </button>
               </div>
@@ -238,7 +234,7 @@ const TourSchedule = () => {
                 </h1>
               </div>
               <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 lg:px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
+                <button className=" rounded-sm border border-white py-2 px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
                   BUY TICKETS
                 </button>
               </div>
@@ -264,7 +260,7 @@ const TourSchedule = () => {
                 </h1>
               </div>
               <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 lg:px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
+                <button className=" rounded-sm border border-white py-2 px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
                   BUY TICKETS
                 </button>
               </div>
@@ -290,7 +286,7 @@ const TourSchedule = () => {
                 </h1>
               </div>
               <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 lg:px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
+                <button className=" rounded-sm border border-white py-2 px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
                   BUY TICKETS
                 </button>
               </div>

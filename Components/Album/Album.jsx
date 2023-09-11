@@ -185,7 +185,7 @@ function Album() {
         {SongsBank.Albums.map((album, Index) => (
           <SwiperSlide key={Index}>
             <div className="bg-[#161616]">
-              <div className="flex justify-center py-7 md:px-[24px] 2xl:px-0   gap-x-5">
+              <div className="flex flex-col sm:flex-row justify-center py-7 md:px-[24px] 2xl:px-0   gap-x-5">
                 <div className="w-[500px]   2xl:h-[1036px] border border-[#959595]">
                   <Image
                     src="/Image10.png"
