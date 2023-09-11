@@ -66,7 +66,7 @@ const TourSchedule = () => {
             >
               <div className="flex flex-col gap-3 items-start">
                 <h1 className=" text-red-600  font-semibold text-[20px] lg:text-[16px]">
-                  DHAKA ROCK FEST
+                  DHAKA FEST
                 </h1>
                 <h1 className="  text-white  font-semibold text-[20px] lg:text-[16px]">
                   DHAKA UNIVERSITY
