@@ -39,20 +39,20 @@ const TourSchedule = () => {
               data-aos-easing="ease-in-out"
             >
               <div className="flex flex-col gap-3 items-start">
-                <h1 className=" text-red-600  font-semibold text-[20px] lg:text-[16px] ">
+                <h1 className=" text-red-600  font-semibold text-[12px] lg:text-[16px] ">
                   AVOIDRAFA U.S.A TOUR
                 </h1>
-                <h1 className="text-white  font-semibold text-[20px] lg:text-[16px]">
+                <h1 className="text-white  font-semibold text-[12px] lg:text-[16px]">
                   TBD-WEST PALM BEACH,FLORIDA
                 </h1>
               </div>
               <div className="flex justify-center w-full">
-                <h1 className="text-white   font-semibold text-[20px] lg:text-[16px]">
+                <h1 className="text-white   font-semibold text-[12px] lg:text-[16px]">
                   13TH JANUARY
                 </h1>
               </div>
               <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
+                <button className=" rounded-sm border border-white py-2 px-[16px] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[12px] lg:text-[16px]">
                   BUY TICKETS
                 </button>
               </div>
@@ -65,20 +65,20 @@ const TourSchedule = () => {
               data-aos-easing="ease-in-out"
             >
               <div className="flex flex-col gap-3 items-start">
-                <h1 className=" text-red-600  font-semibold text-[20px] lg:text-[16px]">
+                <h1 className=" text-red-600  font-semibold text-[12px] lg:text-[16px]">
                   DHAKA FEST
                 </h1>
-                <h1 className="  text-white  font-semibold text-[20px] lg:text-[16px]">
+                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
                   DHAKA UNIVERSITY
                 </h1>
               </div>
               <div className="flex justify-center w-full">
-                <h1 className="  text-white  font-semibold text-[20px] lg:text-[16px]">
+                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
                   1 OCTOBER 2023
                 </h1>
               </div>
               <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
+                <button className=" rounded-sm border border-white py-2 px-[16px] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[12px] lg:text-[16px]">
                   BUY TICKETS
                 </button>
               </div>
@@ -91,20 +91,20 @@ const TourSchedule = () => {
               data-aos-easing="ease-in-out"
             >
               <div className="flex flex-col gap-3">
-                <h1 className=" text-red-600  font-semibold text-[20px] lg:text-[16px]">
+                <h1 className=" text-red-600  font-semibold text-[12px] lg:text-[16px]">
                   CHATTAGRAM ROCK FEST
                 </h1>
-                <h1 className="  text-white  font-semibold text-[20px] lg:text-[16px]">
+                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
                   M.A AZIZ STADIUM
                 </h1>
               </div>
               <div className="flex justify-center w-full">
-                <h1 className="text-white text-start  font-semibold text-[20px] lg:text-[16px]">
+                <h1 className="text-white text-start  font-semibold text-[12px] lg:text-[16px]">
                   21 MARCH 2024
                 </h1>
               </div>
               <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
+                <button className=" rounded-sm border border-white py-2 px-[16px] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[12px] lg:text-[16px]">
                   BUY TICKETS
                 </button>
               </div>
@@ -117,20 +117,20 @@ const TourSchedule = () => {
               data-aos-easing="ease-in-out"
             >
               <div className="flex flex-col gap-3">
-                <h1 className=" text-red-600  font-semibold text-[20px] lg:text-[16px]">
+                <h1 className=" text-red-600  font-semibold text-[12px] lg:text-[16px]">
                   KHULNA ROCK FEST
                 </h1>
-                <h1 className="  text-white  font-semibold text-[20px] lg:text-[16px]">
+                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
                   KHULNA STADIUM
                 </h1>
               </div>
               <div className="flex justify-center w-full">
-                <h1 className="  text-white  font-semibold text-[20px] lg:text-[16px]">
+                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
                   05 MAY 2024
                 </h1>
               </div>
               <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
+                <button className=" rounded-sm border border-white py-2 px-[16px] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[12px] lg:text-[16px]">
                   BUY TICKETS
                 </button>
               </div>
@@ -143,20 +143,20 @@ const TourSchedule = () => {
               data-aos-easing="ease-in-out"
             >
               <div className="flex flex-col gap-3">
-                <h1 className=" text-red-600  font-semibold text-[20px] lg:text-[16px]">
+                <h1 className=" text-red-600  font-semibold text-[12px] lg:text-[16px]">
                   DHAKA ROCK FEST
                 </h1>
-                <h1 className="  text-white  font-semibold text-[20px] lg:text-[16px]">
+                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
                   ARMY STADIUM
                 </h1>
               </div>
               <div className="flex justify-center w-full">
-                <h1 className="  text-white  font-semibold text-[20px] lg:text-[16px]">
+                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
                   1 AUGUST 2024
                 </h1>
               </div>
               <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
+                <button className=" rounded-sm border border-white py-2 px-[16px] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[12px] lg:text-[16px]">
                   BUY TICKETS
                 </button>
               </div>
@@ -169,20 +169,20 @@ const TourSchedule = () => {
               data-aos-easing="ease-in-out"
             >
               <div className="flex flex-col gap-3">
-                <h1 className=" text-red-600  font-semibold text-[20px] lg:text-[16px]">
+                <h1 className=" text-red-600  font-semibold text-[12px] lg:text-[16px]">
                   DHAKA ROCK FEST
                 </h1>
-                <h1 className="  text-white  font-semibold text-[20px] lg:text-[16px]">
+                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
                   ARMY STADIUM
                 </h1>
               </div>
               <div className="flex justify-center w-full">
-                <h1 className="  text-white  font-semibold text-[20px] lg:text-[16px]">
+                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
                   2 JULY 2024
                 </h1>
               </div>
               <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
+                <button className=" rounded-sm border border-white py-2 px-[16px] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[12px] lg:text-[16px]">
                   BUY TICKETS
                 </button>
               </div>
@@ -195,20 +195,20 @@ const TourSchedule = () => {
               data-aos-easing="ease-in-out"
             >
               <div className="flex flex-col gap-3">
-                <h1 className=" text-red-600  font-semibold text-[20px] lg:text-[16px]">
+                <h1 className=" text-red-600  font-semibold text-[12px] lg:text-[16px]">
                   DHAKA ROCK FEST
                 </h1>
-                <h1 className="  text-white  font-semibold text-[20px] lg:text-[16px]">
+                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
                   ARMY STADIUM
                 </h1>
               </div>
               <div className="flex justify-center w-full">
-                <h1 className="  text-white  font-semibold text-[20px] lg:text-[16px]">
+                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
                   21 AUGUST 2023
                 </h1>
               </div>
               <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
+                <button className=" rounded-sm border border-white py-2 px-[16px] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[12px] lg:text-[16px]">
                   BUY TICKETS
                 </button>
               </div>
@@ -221,20 +221,20 @@ const TourSchedule = () => {
               data-aos-easing="ease-in-out"
             >
               <div className="flex flex-col gap-3">
-                <h1 className=" text-red-600  font-semibold text-[20px] lg:text-[16px]">
+                <h1 className=" text-red-600  font-semibold text-[12px] lg:text-[16px]">
                   DHAKA ROCK FEST
                 </h1>
-                <h1 className="  text-white  font-semibold text-[20px] lg:text-[16px]">
+                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
                   DHAKA UNIVERSITY
                 </h1>
               </div>
               <div className="flex justify-center w-full">
-                <h1 className="  text-white  font-semibold text-[20px] lg:text-[16px]">
+                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
                   21 AUGUST 2023
                 </h1>
               </div>
               <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
+                <button className=" rounded-sm border border-white py-2 px-[16px] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[12px] lg:text-[16px]">
                   BUY TICKETS
                 </button>
               </div>
@@ -247,20 +247,20 @@ const TourSchedule = () => {
               data-aos-easing="ease-in-out"
             >
               <div className="flex flex-col gap-3">
-                <h1 className=" text-red-600  font-semibold text-[20px] lg:text-[16px]">
+                <h1 className=" text-red-600  font-semibold text-[12px] lg:text-[16px]">
                   DHAKA ROCK FEST
                 </h1>
-                <h1 className="  text-white  font-semibold text-[20px] lg:text-[16px]">
+                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
                   DHAKA UNIVERSITY
                 </h1>
               </div>
               <div className="flex justify-center w-full">
-                <h1 className="  text-white  font-semibold text-[20px] lg:text-[16px]">
+                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
                   06 APRIL 2023
                 </h1>
               </div>
               <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
+                <button className=" rounded-sm border border-white py-2 px-[16px] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[12px] lg:text-[16px]">
                   BUY TICKETS
                 </button>
               </div>
@@ -273,20 +273,20 @@ const TourSchedule = () => {
               data-aos-easing="ease-in-out"
             >
               <div className="flex flex-col gap-3">
-                <h1 className=" text-red-600  font-semibold text-[20px] lg:text-[16px]">
+                <h1 className=" text-red-600  font-semibold text-[12px] lg:text-[16px]">
                   DHAKA BIG SHOT
                 </h1>
-                <h1 className="  text-white  font-semibold text-[20px] lg:text-[16px]">
+                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
                   MIRPUR STADIUM
                 </h1>
               </div>
               <div className="flex justify-center w-full">
-                <h1 className="  text-white  font-semibold text-[20px] lg:text-[16px]">
+                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
                   08 JULY 2024
                 </h1>
               </div>
               <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 px-[1.6rem] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[20px] lg:text-[16px]">
+                <button className=" rounded-sm border border-white py-2 px-[16px] xl:px-[3.3rem] 2xl:px-[4.3rem]   text-white  font-semibold text-[12px] lg:text-[16px]">
                   BUY TICKETS
                 </button>
               </div>

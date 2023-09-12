@@ -24,10 +24,10 @@ const Products = () => {
             src={"/Group.png"}
             width={350}
             height={350}
-            className=""
+            className=" w-fit"
             alt="avoidrafa"
           />
-          <div className="text-white  flex text-[16px]   w-full justify-center gap-[11.5rem] items-center">
+          <div className="text-white  flex text-[16px]   w-full justify-center  gap-[7rem] md:gap-[11.5rem] items-center">
             <div>
               <h1>Classic T-Shirt</h1>
               <div className="flex  justify-around ">

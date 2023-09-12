@@ -23,48 +23,60 @@ const ContactUs = () => {
   return (
     <div className="py-20 px-[50px] " id="contact">
       <div className="py-[24px]">
-        <h1 className="text-center font-bold text-[80px]  text-white">
+        <h1 className="text-center font-bold  text-[30px] sm:text-[80px]  text-white">
           BOOK AVOIDRAFA
         </h1>
         <h1 className="text-center text-[20px]  text-white">
           BOOK AVOIDRAFA FOR SHOW OR CONCERT
         </h1>
       </div>
-      <div className="flex  justify-center gap-x-40 2xl:gap-x-56 my-10">
-        <form onSubmit={formhandaler} className="flex flex-col gap-y-10 w-80">
-          <label htmlFor="" className="text-white py-2 ">
+      <div className="flex  justify-center  gap-x-[16px] md:gap-x-40 lg:gap-x-56 my-10">
+        <form
+          onSubmit={formhandaler}
+          className="flex flex-col  2xl:gap-y-10 w-[9rem] lg:w-80"
+        >
+          <label
+            htmlFor=""
+            className="text-white py-2  text-[16px] sm:text-[16px]"
+          >
             Show/Concert location
             <input
               type="text"
               name="Concertname"
               placeholder="Type your Show/Concert location"
-              className="text-gray-300 text-[12px]   bg-transparent placeholder:bg-transparent placeholder:text-gray-300 placeholder:text-[12px]  w-80   outline-none border-b  placeholder:uppercase  border-b-slate-500"
+              className="text-gray-300 text-[12px]   bg-transparent placeholder:bg-transparent placeholder:text-gray-300  placeholder:text-[12px] sm:placeholder:text-[12px] w-[7rem] lg:w-80   outline-none border-b  placeholder:uppercase  border-b-slate-500"
               onChange={getInformation}
             />
           </label>
-          <label htmlFor="" className="text-white py-2 ">
+          <label
+            htmlFor=""
+            className="text-white py-2  text-[16px] sm:text-[16px] "
+          >
             Concert Date
             <input
               type="text"
               name="concertdate"
               placeholder="Concert Date"
-              className="text-gray-300 text-[12px]  bg-transparent placeholder:bg-transparent placeholder:text-gray-300 placeholder:text-[12px]   w-80   outline-none border-b border-b-slate-500"
+              className="text-gray-300 text-[12px]  bg-transparent placeholder:bg-transparent placeholder:text-gray-300  placeholder:text-[12px] sm:placeholder:text-[12px]  w-[7rem] lg:w-80   outline-none border-b border-b-slate-500"
               onChange={getInformation}
             />
           </label>
-          <label htmlFor="" className="text-white  py-2 ">
+          <label
+            htmlFor=""
+            className="text-white  py-2  text-[16px] sm:text-[16px] "
+          >
             Contact Number
             <input
               type="text"
               name="contactnumber"
               placeholder="Contact Number"
-              className="text-gray-300 text-[12px]  bg-transparent placeholder:bg-transparent placeholder:text-gray-300 placeholder:text-[12px]   w-80   outline-none border-b border-b-slate-500"
+              className="text-gray-300 text-[12px]  bg-transparent placeholder:bg-transparent placeholder:text-gray-300  placeholder:text-[12px] sm:placeholder:text-[12px]  w-[7rem] lg:w-80   outline-none border-b border-b-slate-500"
               onChange={getInformation}
             />
           </label>
           <button
             type="submit"
-            className="py-2 w-auto text-white border-2 border-white "
+            className=" py-1 sm:py-2 w-auto text-xs sm:text-lg text-white border-2 border-white "
           >
             Submit
           </button>
