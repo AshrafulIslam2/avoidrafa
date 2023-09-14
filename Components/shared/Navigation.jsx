@@ -94,7 +94,7 @@ const Navigation = () => {
           </Link>
           <Link
             href={"/#contact"}
-            className="text-white px-[20px] text-center sm:px-[30px] lg:px-[20px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border mr-3 xl:mr-0 hover:border-white text-[14px] xl:text-base"
+            className="text-white px-[20px] text-center sm:px-[30px] lg:px-[20px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border lg:mr-3 xl:mr-0 hover:border-white text-[14px] xl:text-base"
           >
             BOOKING
           </Link>

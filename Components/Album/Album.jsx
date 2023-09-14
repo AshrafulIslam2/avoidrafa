@@ -144,13 +144,13 @@ function Album() {
         className="bg-[#161616] py-10  relative"
         // onSwiper={(swiper) => console.log(swiper)}
       >
-        <button className="image-swiper-button-prev  absolute right-[400px]  2xl:right-[550px]">
+        <button className="image-swiper-button-prev  absolute  sm:right-[400px]  2xl:right-[550px]">
           <svg
             width="114"
             height="40"
             viewBox="0 0 114 40"
             fill="none"
-            className="absolute "
+            className="absolute top-1 left-4 sm:left-0"
             xmlns="http://www.w3.org/2000/svg"
           >
             <g clipPath="url(#clip0_3_220)">
@@ -186,13 +186,20 @@ function Album() {
           <SwiperSlide key={Index}>
             <div className="bg-[#161616]">
               <div className="flex flex-col sm:flex-row justify-center py-7 md:px-[24px] 2xl:px-0   gap-x-5">
-                <div className="w-[500px]   2xl:h-[1036px] border border-[#959595]">
+                <div className=" mx-[16px] sm:mx-0 sm:w-[500px]   2xl:h-[1036px] border border-[#959595]">
                   <Image
                     src="/Image10.png"
                     alt="background image"
-                    className=" bg-blend-darken  brightness-50  object-cover"
+                    className=" hidden sm:block bg-blend-darken  brightness-50  object-cover"
                     width={739}
                     height={370}
+                  />
+                  <Image
+                    src={"/Image8.png"}
+                    alt="background image"
+                    width={855}
+                    height={855}
+                    className=" block sm:hidden lg: xl: 2xl:h-[1040px]"
                   />
 
                   <div className="">
@@ -247,7 +254,7 @@ function Album() {
                     width={855}
                     height={855}
                     alt="ash"
-                    className="lg: xl: 2xl:h-[1040px]"
+                    className=" hidden sm:block lg: xl: 2xl:h-[1040px]"
                   />
                 </div>
               </div>
@@ -261,7 +268,7 @@ function Album() {
             height="40"
             viewBox="0 0 114 40"
             fill="none"
-            className="relative top-0 right-4"
+            className="relative top-1 -right-16 sm:right-6 "
             xmlns="http://www.w3.org/2000/svg"
           >
             <g clipPath="url(#clip0_92_95)">
