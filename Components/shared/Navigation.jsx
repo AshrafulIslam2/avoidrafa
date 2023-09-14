@@ -153,9 +153,9 @@ const Navigation = () => {
         <Image
           src="/Group_73.svg"
           alt="Logo"
-          width={200}
-          height={200}
-          className="inline-block sm:hidden bg-[#161616] my-2"
+          width={160}
+          height={160}
+          className="inline-block sm:hidden bg-[#161616] my-2 -ml-[60px]"
         />
       </div>
     </div>
