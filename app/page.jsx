@@ -21,7 +21,7 @@ const Home = () => {
       {/* <Image src={avoid} alt='avoid-rafa' className='object-cover w-screen h-screen' ></Image> */}
       <Products />
       <ContactUs />
-      <ScocialMedila />
+      {/* <ScocialMedila /> */}
       {/* <ScroolTop /> */}
     </main>
   );
