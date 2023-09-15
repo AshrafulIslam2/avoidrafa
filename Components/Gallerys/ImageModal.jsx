@@ -12,6 +12,10 @@ const ImageModal = ({ isOpen, onClose, imageSrc }) => {
       transform: "translate( -50%)",
     },
   };
+  if (window.innerWidth <= 768) {
+    customStyles.content.maxHeight = "30%";
+    // Adjust the maxHeight for mobile devices
+  }
   return (
     <Modal
       isOpen={isOpen}
@@ -21,7 +25,7 @@ const ImageModal = ({ isOpen, onClose, imageSrc }) => {
     >
       {" "}
       <div className="flex justify-end">
-        <button className="text-xl" onClick={onClose}>
+        <button className="text-[10px] sm:text-xl" onClick={onClose}>
           Close
         </button>
       </div>

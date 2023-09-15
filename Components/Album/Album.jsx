@@ -150,7 +150,7 @@ function Album() {
             height="40"
             viewBox="0 0 114 40"
             fill="none"
-            className="absolute top-1 left-4 sm:left-0"
+            className="absolute sm:top-1 left-4 sm:left-0"
             xmlns="http://www.w3.org/2000/svg"
           >
             <g clipPath="url(#clip0_3_220)">
@@ -268,7 +268,7 @@ function Album() {
             height="40"
             viewBox="0 0 114 40"
             fill="none"
-            className="relative top-1 -right-16 sm:right-6 "
+            className="relative sm:top-1 -right-16 sm:right-6 "
             xmlns="http://www.w3.org/2000/svg"
           >
             <g clipPath="url(#clip0_92_95)">
