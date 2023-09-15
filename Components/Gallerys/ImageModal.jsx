@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import Modal from "react-modal";
@@ -12,9 +13,11 @@ const ImageModal = ({ isOpen, onClose, imageSrc }) => {
       transform: "translate( -50%)",
     },
   };
-  if (window.innerWidth <= 768) {
-    customStyles.content.maxHeight = "30%";
-    // Adjust the maxHeight for mobile devices
+  if (typeof window !== "undefined") {
+    // Add a media query to modify styles for mobile devices
+    if (window.innerWidth <= 768) {
+      customStyles.content.maxHeight = "50%";
+    }
   }
   return (
     <Modal
