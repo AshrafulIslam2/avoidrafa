@@ -81,7 +81,7 @@ const Navigation = () => {
             ALBUM
           </Link>
           <Link
-            href={"/#gallery"}
+            href={"/gallery"}
             className="text-white px-[20px] text-center sm:px-[30px] lg:px-[40px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border hover:border-white text-[14px] xl:text-base"
           >
             GALLERY
@@ -149,14 +149,16 @@ const Navigation = () => {
           </div>
         )}
       </div>
-      <div className="bg-[#161616] flex-grow  flex sm:hidden flex-col items-center ">
-        <Image
-          src="/Group_73.svg"
-          alt="Logo"
-          width={160}
-          height={160}
-          className="inline-block sm:hidden bg-[#161616] my-2 -ml-[60px]"
-        />
+      <div className="bg-[#161616] flex-grow   ">
+        <Link href="/" className="flex sm:hidden flex-col items-center">
+          <Image
+            src="/Group_73.svg"
+            alt="Logo"
+            width={160}
+            height={160}
+            className="inline-block sm:hidden bg-[#161616] my-2 -ml-[60px]"
+          />
+        </Link>
       </div>
     </div>
   );

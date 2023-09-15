@@ -24,7 +24,7 @@ function FullGallery() {
     <div>
       {" "}
       <h1
-        className="text-[254px] text-white lg:ml-[32px] 2xl:ml-[105px]  2xl:pl-[50px] mr-[327px]"
+        className=" text-[90px] sm:text-[254px] text-white ml-[32px] 2xl:ml-[105px]  2xl:pl-[50px] mr-[327px]"
         data-aos="zoom-out-up"
         data-aos-duration="1000"
       >

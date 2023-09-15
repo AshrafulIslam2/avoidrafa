@@ -38,7 +38,7 @@ function ImageGallery() {
   ];
   return (
     <div>
-      <div className="grid grid-cols-4  mx-[42px]">
+      <div className="grid  grid-cols-2 sm:grid-cols-4  mx-[42px]">
         {imageGallery.map((image, Index) => (
           <Image
             key={Index}

@@ -16,7 +16,7 @@ const ImageModal = ({ isOpen, onClose, imageSrc }) => {
   if (typeof window !== "undefined") {
     // Add a media query to modify styles for mobile devices
     if (window.innerWidth <= 768) {
-      customStyles.content.maxHeight = "50%";
+      customStyles.content.maxHeight = "30%";
     }
   }
   return (
