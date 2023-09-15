@@ -105,43 +105,43 @@ const Navigation = () => {
             <div className=" ml-[24px] flex flex-col transition-all ease-in-out duration-500">
               <Link
                 href={"/"}
-                className="text-white px-[5px] text-center sm:px-[30px] lg:px-[40px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border hover:border-white text-[14px] xl:text-base "
+                className="text-white px-[5px] text-left sm:px-[30px] lg:px-[40px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border hover:border-white text-[14px] xl:text-base "
               >
                 HOME
               </Link>
               <Link
                 href={"/#news"}
-                className="text-white px-[5px] text-center sm:px-[30px] lg:px-[40px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border hover:border-white text-[14px] xl:text-base"
+                className="text-white px-[5px] text-left sm:px-[30px] lg:px-[40px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border hover:border-white text-[14px] xl:text-base"
               >
                 LATEST
               </Link>
               <Link
                 href={"/#tour"}
-                className="text-white px-[5px] text-center sm:px-[30px] lg:px-[40px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border hover:border-white text-[14px] xl:text-base"
+                className="text-white px-[5px] text-left sm:px-[30px] lg:px-[40px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border hover:border-white text-[14px] xl:text-base"
               >
                 TOUR
               </Link>
               <Link
                 href={"/#album"}
-                className="text-white px-[5px] text-center sm:px-[30px] lg:px-[40px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border hover:border-white text-[14px] xl:text-base"
+                className="text-white px-[5px] text-left sm:px-[30px] lg:px-[40px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border hover:border-white text-[14px] xl:text-base"
               >
                 ALBUM
               </Link>
               <Link
-                href={"/#gallery"}
-                className="text-white px-[5px] text-center sm:px-[30px] lg:px-[40px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border hover:border-white text-[14px] xl:text-base"
+                href={"/gallery"}
+                className="text-white px-[5px] text-left sm:px-[30px] lg:px-[40px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border hover:border-white text-[14px] xl:text-base"
               >
                 GALLERY
               </Link>
               <Link
                 href={"/#products"}
-                className="text-white px-[5px] text-center sm:px-[30px] lg:px-[40px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border hover:border-white text-[14px] xl:text-base"
+                className="text-white px-[5px] text-left sm:px-[30px] lg:px-[40px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border hover:border-white text-[14px] xl:text-base"
               >
                 MERCH
               </Link>
               <Link
                 href={"/#contact"}
-                className="text-white px-[5px] text-center sm:px-[30px] lg:px-[20px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border  hover:border-white text-[14px] xl:text-base"
+                className="text-white px-[5px] text-left sm:px-[30px] lg:px-[20px] py-[6px] hover:bg-[#ffffff14] rounded-md hover:border  hover:border-white text-[14px] xl:text-base"
               >
                 BOOKING
               </Link>
