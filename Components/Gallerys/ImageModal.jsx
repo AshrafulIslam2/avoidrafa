@@ -8,9 +8,9 @@ import Modal from "react-modal";
 const ImageModal = ({ isOpen, onClose, imageSrc }) => {
   const customStyles = {
     content: {
-      top: "10%",
+      top: "50%",
       left: "50%",
-      transform: "translate( -50%)",
+      transform: "translate( -50%,-50%)",
     },
   };
   if (typeof window !== "undefined") {

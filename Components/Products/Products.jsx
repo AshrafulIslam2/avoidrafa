@@ -150,7 +150,9 @@ const Products = () => {
       </div>
       <div className="text-white my-5 flex justify-center">
         <Link
-          href={"https://www.facebook.com/hanger18official"}
+          href={
+            "https://m.facebook.com/story.php?story_fbid=pfbid074zC5yoHuao7PDNXxpnhcSwfb8Bwv9pEdHJgvuPNbEhQ1wcYsc1cRufhi4iiEXXMl&id=100064681479758&mibextid=2JQ9oc"
+          }
           target="_blank"
           className="border-2 border-white  px-4 text-[40px]"
         >
