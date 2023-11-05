@@ -74,19 +74,19 @@ const Gallery = () => {
           />
           <Image
             src={gallery_Image_4}
-            className="  over:scale-105  h-full  transition-all ease-in-out duration-500 outline outline-black cursor-pointer object-cover"
+            className="  hover:scale-105  h-full  transition-all ease-in-out duration-500 outline outline-black cursor-pointer object-cover"
             alt="avoidrafa"
             onClick={() => openModal(full_View_Image05)}
           />
           <Image
             src={gallery_Image_5}
-            className="  over:scale-105   h-full transition-all ease-in-out duration-500 outline outline-black cursor-pointer object-cover "
+            className="  hover:scale-105   h-full transition-all ease-in-out duration-500 outline outline-black cursor-pointer object-cover "
             alt="avoidrafa"
             onClick={() => openModal(full_View_Image02)}
           />
           <Image
             src={gallery_Image_6}
-            className="  over:scale-105     transition-all ease-in-out duration-500 outline outline-black cursor-pointer col-span-2 object-cover "
+            className="  hover:scale-105     transition-all ease-in-out duration-500 outline outline-black cursor-pointer col-span-2 object-cover "
             alt="avoidrafa"
             onClick={() => openModal(full_View_Image06)}
           />
@@ -101,13 +101,13 @@ const Gallery = () => {
           <Image
             src={gallery_Image_1}
             alt="avoidrafa"
-            className="  over:scale-105 transition-all ease-in-out duration-500 outline outline-black cursor-pointer "
+            className="  hover:scale-105 transition-all ease-in-out duration-500 outline outline-black cursor-pointer "
             onClick={() => openModal(gallery_Image_1)}
           />
           <div>
             <Image
               src={gallery_Image_7}
-              className=" transition-all ease-in-out duration-500 outline outline-black cursor-pointer   over:scale-105 h-[260px]  md:h-[440px] lg:h-[524px] 2xl:h-[530px]   object-cover"
+              className=" transition-all ease-in-out duration-500 outline outline-black cursor-pointer   hover:scale-105 h-[260px]  md:h-[440px] lg:h-[524px] 2xl:h-[530px]   object-cover"
               alt="avoidrafa"
               onClick={() => openModal(full_View_Image04)}
             />
