@@ -186,7 +186,7 @@ function Album() {
           <SwiperSlide key={Index}>
             <div className="bg-[#161616]">
               <div className="flex flex-col sm:flex-row justify-center py-7 md:px-[24px] 2xl:px-0   gap-x-5">
-                <div className=" mx-[16px] sm:mx-0 sm:w-[500px]   2xl:h-[1036px] border border-[#959595]">
+                <div className=" mx-[16px] sm:mx-0 sm:w-[500px]   border border-[#959595]">
                   <Image
                     src="/Image10.png"
                     alt="background image"
@@ -254,7 +254,7 @@ function Album() {
                     width={855}
                     height={855}
                     alt="ash"
-                    className=" hidden sm:block lg: xl: 2xl:h-[1040px]"
+                    className=" hidden sm:block  object-cover"
                   />
                 </div>
               </div>

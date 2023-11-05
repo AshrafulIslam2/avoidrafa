@@ -31,7 +31,7 @@ const TourSchedule = () => {
             alt="background image"
             className="object-fill w-auto h-full"
           />
-          <div className="lg:h-[700px] xl:h-auto lg:overflow-y-scroll">
+          <div className="max-h-[1000px] overflow-y-scroll">
             <div
               className="grid grid-cols-3 items-end py-2 justify-items-start"
               data-aos="fade-up"
