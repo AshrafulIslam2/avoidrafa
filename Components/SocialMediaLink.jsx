@@ -27,26 +27,13 @@ function ScocialMedila() {
     };
   }, []);
   return (
-    <div className={`relative z-40 ${showButton ? "" : "hidden"}`}>
-      <Link
-        href={
-          "https://www.tiktok.com/@avoidrafa?lang=en&fbclid=IwAR2H0tOQrwDpA8AltL92ux8SG6-sd1E-Stx5qj5UcnOsWXqIAyUMDErgebE"
-        }
-        target="_blank"
-      >
-        <Image
-          src={"/tiktok.svg"}
-          alt="avoidrafa"
-          fill
-          className="  fixed left-[40px] md:top-[64%] md:bottom-[64%] 2xl:top-[64%] z-20  bottom-[60%] animate-pulse w-10 h-10"
-        ></Image>
-      </Link>
+    <div className={`relative  z-40  ${showButton ? "" : "hidden"}`}>
       <Link href={"https://www.facebook.com/avoidrafa"} target="_blank">
         <Image
           src={"/facebook.svg"}
           alt="avoidrafa"
           fill
-          className="  fixed left-[40px] md:top-[52%] md:bottom-[52%] top-[50%] z-20  bottom-[50%] animate-pulse w-10 h-10"
+          className="fixed top-[10%] sm:top-[15%] md:top-[20%] left-[86%] animate-pulse w-6 h-6 sm:w-10 sm:h-10"
         ></Image>
       </Link>
       <Link href={"https://www.youtube.com/@avoidrafa"} target="_blank">
@@ -54,7 +41,7 @@ function ScocialMedila() {
           src={"/youtube.svg"}
           alt="avoidrafa"
           fill
-          className="  fixed left-[40px] top-[40%] z-20  bottom-[40%] animate-pulse w-10 h-10"
+          className="fixed top-[17%] sm:top-[25%] md:top-[35%] left-[86%] animate-pulse w-6 h-6 sm:w-10 sm:h-10"
         ></Image>
       </Link>
       <Link
@@ -67,7 +54,20 @@ function ScocialMedila() {
           src={"/spotify.svg"}
           alt="avoidrafa"
           fill
-          className="  fixed left-[40px] md:top-[28%] md:bottom-[28%] top-[30%] z-20  bottom-[30%] animate-pulse w-10 h-10"
+          className="fixed top-[24%] sm:top-[35%] md:top-[50%] left-[86%] animate-pulse w-6 h-6 sm:w-10 sm:h-10"
+        ></Image>
+      </Link>
+      <Link
+        href={
+          "https://www.tiktok.com/@avoidrafa?lang=en&fbclid=IwAR2H0tOQrwDpA8AltL92ux8SG6-sd1E-Stx5qj5UcnOsWXqIAyUMDErgebE"
+        }
+        target="_blank"
+      >
+        <Image
+          src={"/tiktok.svg"}
+          alt="avoidrafa"
+          fill
+          className="fixed top-[31%] sm:top-[45%] md:top-[65%] left-[86%] animate-pulse w-6 h-6 sm:w-10 sm:h-10"
         ></Image>
       </Link>
     </div>

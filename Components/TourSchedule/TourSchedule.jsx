@@ -4,6 +4,7 @@ import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import upcoming from "@/public/UPCOMING.png";
+import Link from "next/link";
 
 const TourSchedule = () => {
   useEffect(() => {
@@ -31,7 +32,100 @@ const TourSchedule = () => {
             alt="background image"
             className="object-fill w-auto h-full"
           />
-          <div className="max-h-[1000px] overflow-y-scroll">
+          <div className="max-h-[1000px] ">
+            <div
+              className="grid grid-cols-3 items-end py-2 justify-items-start"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
+              <div className="flex flex-col gap-3 items-start">
+                <h1 className="uppercase text-red-600  font-semibold text-[12px] lg:text-[16px]">
+                  Lets Vibe Barishal Buzz
+                </h1>
+                <h1 className=" uppercase text-white  font-semibold text-[12px] lg:text-[16px]">
+                  Barishal Shilpokola Academy
+                </h1>
+              </div>
+              <div className=" uppercase flex justify-center w-full">
+                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
+                  9th December 2023
+                </h1>
+              </div>
+              <div className="flex justify-end w-full">
+                <Link
+                  href={"https://www.facebook.com/avoidrafa"}
+                  target="__blank"
+                >
+                  <button className=" rounded-sm border border-white py-2 px-[16px] xl:px-[3.3rem]    text-white  font-semibold text-[12px] lg:text-[16px]">
+                    MORE DETAILS
+                  </button>
+                </Link>
+              </div>
+            </div>
+            <hr className="bg-gray-100 2xl:max-w-[1600px] mx-auto" />
+            <div
+              className="grid grid-cols-3 items-end py-2 justify-items-start"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
+              <div className="flex flex-col gap-3 items-start">
+                <h1 className="uppercase text-red-600  font-semibold text-[12px] lg:text-[16px]">
+                  Bijoy Ullash
+                </h1>
+                <h1 className=" uppercase text-white  font-semibold text-[12px] lg:text-[16px]">
+                  Jamuna Future Park
+                </h1>
+              </div>
+              <div className=" uppercase flex justify-center w-full">
+                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
+                  15th December 2023
+                </h1>
+              </div>
+              <div className="flex justify-end w-full">
+                <Link
+                  href={"https://www.facebook.com/avoidrafa"}
+                  target="__blank"
+                >
+                  <button className=" rounded-sm border border-white py-2 px-[16px] xl:px-[3.3rem] active:scale-95    text-white  font-semibold text-[12px] lg:text-[16px]">
+                    MORE DETAILS
+                  </button>
+                </Link>
+              </div>
+            </div>
+            <hr className="bg-gray-100 2xl:max-w-[1600px] mx-auto" />
+            <div
+              className="grid grid-cols-3 items-end py-2 justify-items-start"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
+              <div className="flex flex-col gap-3 items-start">
+                <h1 className=" uppercase text-red-600  font-semibold text-[12px] lg:text-[16px] ">
+                  AVOIDRAFA U.S.A TOUR
+                </h1>
+                <h1 className="uppercase text-white  font-semibold text-[12px] lg:text-[16px]">
+                  VIBE-annapolis,maryland
+                </h1>
+              </div>
+              <div className="flex justify-center w-full">
+                <h1 className="uppercase text-white   font-semibold text-[12px] lg:text-[16px]">
+                  10TH JANUARY
+                </h1>
+              </div>
+              <div className="flex justify-end w-full">
+                <Link
+                  href={"https://www.facebook.com/blacklocustevents"}
+                  target="__blank"
+                >
+                  <button className=" rounded-sm border border-white py-2 px-[16px] xl:px-[3.3rem] active:scale-95    text-white  font-semibold text-[12px] lg:text-[16px]">
+                    MORE DETAILS
+                  </button>
+                </Link>
+              </div>
+            </div>
+            <hr className="bg-gray-100 2xl:max-w-[1600px] mx-auto" />
             <div
               className="grid grid-cols-3 items-end py-2 justify-items-start"
               data-aos="fade-up"
@@ -52,9 +146,14 @@ const TourSchedule = () => {
                 </h1>
               </div>
               <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 px-[16px] xl:px-[3.3rem]    text-white  font-semibold text-[12px] lg:text-[16px]">
-                  BUY TICKETS
-                </button>
+                <Link
+                  href={"https://www.facebook.com/blacklocustevents"}
+                  target="__blank"
+                >
+                  <button className=" rounded-sm border border-white py-2 px-[16px] xl:px-[3.3rem] active:scale-95    text-white  font-semibold text-[12px] lg:text-[16px]">
+                    MORE DETAILS
+                  </button>
+                </Link>
               </div>
             </div>
             <hr className="bg-gray-100 2xl:max-w-[1600px] mx-auto" />
@@ -65,22 +164,27 @@ const TourSchedule = () => {
               data-aos-easing="ease-in-out"
             >
               <div className="flex flex-col gap-3 items-start">
-                <h1 className=" text-red-600  font-semibold text-[12px] lg:text-[16px]">
-                  DHAKA FEST
+                <h1 className=" uppercase text-red-600  font-semibold text-[12px] lg:text-[16px] ">
+                  AVOIDRAFA U.S.A TOUR
                 </h1>
-                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
-                  DHAKA UNIVERSITY
+                <h1 className="uppercase text-white  font-semibold text-[12px] lg:text-[16px]">
+                  berkmar high school-lilburn,geordia
                 </h1>
               </div>
               <div className="flex justify-center w-full">
-                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
-                  1 OCTOBER 2023
+                <h1 className="uppercase text-white   font-semibold text-[12px] lg:text-[16px]">
+                  20TH JANUARY
                 </h1>
               </div>
               <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 px-[16px] xl:px-[3.3rem]    text-white  font-semibold text-[12px] lg:text-[16px]">
-                  BUY TICKETS
-                </button>
+                <Link
+                  href={"https://www.facebook.com/blacklocustevents"}
+                  target="__blank"
+                >
+                  <button className=" rounded-sm border border-white py-2 px-[16px] xl:px-[3.3rem] active:scale-95    text-white  font-semibold text-[12px] lg:text-[16px]">
+                    MORE DETAILS
+                  </button>
+                </Link>
               </div>
             </div>
             <hr className="bg-gray-100 2xl:max-w-[1600px] mx-auto" />
@@ -90,23 +194,28 @@ const TourSchedule = () => {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
-              <div className="flex flex-col gap-3">
-                <h1 className=" text-red-600  font-semibold text-[12px] lg:text-[16px]">
-                  CHATTAGRAM ROCK FEST
+              <div className="flex flex-col gap-3 items-start">
+                <h1 className=" uppercase text-red-600  font-semibold text-[12px] lg:text-[16px] ">
+                  AVOIDRAFA U.S.A TOUR
                 </h1>
-                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
-                  M.A AZIZ STADIUM
+                <h1 className="uppercase text-white  font-semibold text-[12px] lg:text-[16px]">
+                  the summit music hall-columbus,ohio
                 </h1>
               </div>
               <div className="flex justify-center w-full">
-                <h1 className="text-white text-start  font-semibold text-[12px] lg:text-[16px]">
-                  21 MARCH 2024
+                <h1 className="uppercase text-white   font-semibold text-[12px] lg:text-[16px]">
+                  24TH JANUARY
                 </h1>
               </div>
               <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 px-[16px] xl:px-[3.3rem]    text-white  font-semibold text-[12px] lg:text-[16px]">
-                  BUY TICKETS
-                </button>
+                <Link
+                  href={"https://www.facebook.com/blacklocustevents"}
+                  target="__blank"
+                >
+                  <button className=" rounded-sm border border-white py-2 px-[16px] xl:px-[3.3rem] active:scale-95    text-white  font-semibold text-[12px] lg:text-[16px]">
+                    MORE DETAILS
+                  </button>
+                </Link>
               </div>
             </div>
             <hr className="bg-gray-100 2xl:max-w-[1600px] mx-auto" />
@@ -116,206 +225,28 @@ const TourSchedule = () => {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
-              <div className="flex flex-col gap-3">
-                <h1 className=" text-red-600  font-semibold text-[12px] lg:text-[16px]">
-                  CHATTAGRAM ROCK FEST
+              <div className="flex flex-col gap-3 items-start">
+                <h1 className=" uppercase text-red-600  font-semibold text-[12px] lg:text-[16px] ">
+                  AVOIDRAFA U.S.A TOUR
                 </h1>
-                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
-                  M.A AZIZ STADIUM
-                </h1>
-              </div>
-              <div className="flex justify-center w-full">
-                <h1 className="text-white text-start  font-semibold text-[12px] lg:text-[16px]">
-                  21 MARCH 2024
-                </h1>
-              </div>
-              <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 px-[16px] xl:px-[3.3rem]    text-white  font-semibold text-[12px] lg:text-[16px]">
-                  BUY TICKETS
-                </button>
-              </div>
-            </div>
-            <hr className="bg-gray-100 2xl:max-w-[1600px] mx-auto" />
-
-            <div
-              className="grid grid-cols-3 items-end py-2 justify-items-start"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
-            >
-              <div className="flex flex-col gap-3">
-                <h1 className=" text-red-600  font-semibold text-[12px] lg:text-[16px]">
-                  KHULNA ROCK FEST
-                </h1>
-                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
-                  KHULNA STADIUM
+                <h1 className="uppercase text-white  font-semibold text-[12px] lg:text-[16px]">
+                  purdue university-west lafayette,indiana
                 </h1>
               </div>
               <div className="flex justify-center w-full">
-                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
-                  05 MAY 2024
+                <h1 className="uppercase text-white   font-semibold text-[12px] lg:text-[16px]">
+                  28TH JANUARY
                 </h1>
               </div>
               <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 px-[16px] xl:px-[3.3rem]    text-white  font-semibold text-[12px] lg:text-[16px]">
-                  BUY TICKETS
-                </button>
-              </div>
-            </div>
-            <hr className="bg-gray-100 2xl:max-w-[1600px] mx-auto" />
-            <div
-              className="grid grid-cols-3 items-end py-2 justify-items-start"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
-            >
-              <div className="flex flex-col gap-3">
-                <h1 className=" text-red-600  font-semibold text-[12px] lg:text-[16px]">
-                  DHAKA ROCK FEST
-                </h1>
-                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
-                  ARMY STADIUM
-                </h1>
-              </div>
-              <div className="flex justify-center w-full">
-                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
-                  1 AUGUST 2024
-                </h1>
-              </div>
-              <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 px-[16px] xl:px-[3.3rem]    text-white  font-semibold text-[12px] lg:text-[16px]">
-                  BUY TICKETS
-                </button>
-              </div>
-            </div>
-            <hr className="bg-gray-100 2xl:max-w-[1600px] mx-auto" />
-            <div
-              className="grid grid-cols-3 items-end py-2 justify-items-start"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
-            >
-              <div className="flex flex-col gap-3">
-                <h1 className=" text-red-600  font-semibold text-[12px] lg:text-[16px]">
-                  DHAKA ROCK FEST
-                </h1>
-                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
-                  ARMY STADIUM
-                </h1>
-              </div>
-              <div className="flex justify-center w-full">
-                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
-                  2 JULY 2024
-                </h1>
-              </div>
-              <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 px-[16px] xl:px-[3.3rem]    text-white  font-semibold text-[12px] lg:text-[16px]">
-                  BUY TICKETS
-                </button>
-              </div>
-            </div>
-            <hr className="bg-gray-100 2xl:max-w-[1600px] mx-auto" />
-            <div
-              className="grid grid-cols-3 items-end py-2 justify-items-start"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
-            >
-              <div className="flex flex-col gap-3">
-                <h1 className=" text-red-600  font-semibold text-[12px] lg:text-[16px]">
-                  DHAKA ROCK FEST
-                </h1>
-                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
-                  ARMY STADIUM
-                </h1>
-              </div>
-              <div className="flex justify-center w-full">
-                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
-                  21 AUGUST 2023
-                </h1>
-              </div>
-              <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 px-[16px] xl:px-[3.3rem]    text-white  font-semibold text-[12px] lg:text-[16px]">
-                  BUY TICKETS
-                </button>
-              </div>
-            </div>
-            <hr className="bg-gray-100 2xl:max-w-[1600px] mx-auto" />
-            <div
-              className="grid grid-cols-3 items-end py-2 justify-items-start"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
-            >
-              <div className="flex flex-col gap-3">
-                <h1 className=" text-red-600  font-semibold text-[12px] lg:text-[16px]">
-                  DHAKA ROCK FEST
-                </h1>
-                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
-                  DHAKA UNIVERSITY
-                </h1>
-              </div>
-              <div className="flex justify-center w-full">
-                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
-                  21 AUGUST 2023
-                </h1>
-              </div>
-              <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 px-[16px] xl:px-[3.3rem]    text-white  font-semibold text-[12px] lg:text-[16px]">
-                  BUY TICKETS
-                </button>
-              </div>
-            </div>
-            <hr className="bg-gray-100 2xl:max-w-[1600px] mx-auto" />
-            <div
-              className="grid grid-cols-3 items-end py-2 justify-items-start"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
-            >
-              <div className="flex flex-col gap-3">
-                <h1 className=" text-red-600  font-semibold text-[12px] lg:text-[16px]">
-                  DHAKA ROCK FEST
-                </h1>
-                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
-                  DHAKA UNIVERSITY
-                </h1>
-              </div>
-              <div className="flex justify-center w-full">
-                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
-                  06 APRIL 2023
-                </h1>
-              </div>
-              <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 px-[16px] xl:px-[3.3rem]    text-white  font-semibold text-[12px] lg:text-[16px]">
-                  BUY TICKETS
-                </button>
-              </div>
-            </div>
-            <hr className="bg-gray-100 2xl:max-w-[1600px] mx-auto" />
-            <div
-              className="grid grid-cols-3 items-end py-2 justify-items-start"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
-            >
-              <div className="flex flex-col gap-3">
-                <h1 className=" text-red-600  font-semibold text-[12px] lg:text-[16px]">
-                  DHAKA BIG SHOT
-                </h1>
-                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
-                  MIRPUR STADIUM
-                </h1>
-              </div>
-              <div className="flex justify-center w-full">
-                <h1 className="  text-white  font-semibold text-[12px] lg:text-[16px]">
-                  08 JULY 2024
-                </h1>
-              </div>
-              <div className="flex justify-end w-full">
-                <button className=" rounded-sm border border-white py-2 px-[16px] xl:px-[3.3rem]    text-white  font-semibold text-[12px] lg:text-[16px]">
-                  BUY TICKETS
-                </button>
+                <Link
+                  href={"https://www.facebook.com/blacklocustevents"}
+                  target="__blank"
+                >
+                  <button className=" rounded-sm border border-white py-2 px-[16px] xl:px-[3.3rem] active:scale-95    text-white  font-semibold text-[12px] lg:text-[16px]">
+                    MORE DETAILS
+                  </button>
+                </Link>
               </div>
             </div>
             <hr className="bg-gray-100 2xl:max-w-[1600px] mx-auto" />

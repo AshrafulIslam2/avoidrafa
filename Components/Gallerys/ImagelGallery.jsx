@@ -37,8 +37,8 @@ function ImageGallery() {
     },
   ];
   return (
-    <div>
-      <div className="grid  grid-cols-2 sm:grid-cols-4  mx-[42px]">
+    <div className="py-[42px]">
+      <div className="grid  grid-cols-2 sm:grid-cols-4 w-screen 2xl:w-[1600px] 2xl:mx-auto">
         {imageGallery.map((image, Index) => (
           <Image
             key={Index}
@@ -48,7 +48,7 @@ function ImageGallery() {
           />
         ))}
       </div>
-      <div className="grid grid-cols-4  mx-[42px]">
+      <div className="grid grid-cols-4  w-screen 2xl:w-[1600px] 2xl:mx-auto ">
         {imageGallery.map((image, Index) => (
           <Image
             key={Index}
@@ -58,7 +58,7 @@ function ImageGallery() {
           />
         ))}
       </div>
-      <div className="grid grid-cols-4  mx-[42px]">
+      <div className="grid grid-cols-4    w-screen 2xl:w-[1600px] 2xl:mx-auto">
         {imageGallery.map((image, Index) => (
           <Image
             key={Index}

@@ -13,27 +13,30 @@ const Navigation = () => {
       <div
         className={`bg-[#161616] flex flex-col sm:flex-row sm:items-center sm:justify-around top-0 sticky z-40 `}
       >
-        <Image
-          src="/Group_73.svg"
-          alt="Logo"
-          width={30}
-          height={30}
-          className="hidden sm:block md:w-[128px] xl:w-[180px] h-[4rem] ml-4"
-        />
+        <Link href={"/"}>
+          <Image
+            src="/Group_73.svg"
+            alt="Logo"
+            width={30}
+            height={30}
+            className="hidden sm:block md:w-[128px] xl:w-[180px] h-[4rem] ml-4"
+          />
+        </Link>
+
         <div className=" block sm:hidden">
           {isOpen ? (
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="#5F5F5F"
               viewBox="0 0 24 24"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               stroke="#5F5F5F"
               class="w-10 h-10 transition-all ease-in-out duration-500"
               onClick={toggele}
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 d="M6 18L18 6M6 6l12 12"
               />
             </svg>
@@ -42,14 +45,14 @@ const Navigation = () => {
               xmlns="http://www.w3.org/2000/svg"
               fill="#5F5F5F"
               viewBox="0 0 24 24"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               stroke="#5F5F5F"
-              class="w-10 h-10 transition-all ease-in-out duration-500"
+              className="w-10 h-10 transition-all ease-in-out duration-500"
               onClick={toggele}
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
               />
             </svg>

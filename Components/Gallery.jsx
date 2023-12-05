@@ -47,71 +47,60 @@ const Gallery = () => {
       {/* {selectedImage && (
         <ImageModal src={selectedImage} alt="Full Image" onClose={closeModal} />
       )} */}
-      <div className="grid grid-cols-12 mx-[16px] lg:mx-0">
-        <div className="grid grid-cols-2 col-span-8 ">
+      <div className="grid grid-cols-3   mx-[16px] lg:mx-0">
+        <div className="col-span-2 grid grid-cols-2 ">
           <h1
-            className=" col-span-2  text-white font-bold text-[78px] md:text-[100px] lg:text-[150px] 2xl:text-[170px]  over:scale-105"
+            className=" col-span-2   text-white font-bold text-[55px] sm:text-[78px] md:text-[100px] lg:text-[150px] 2xl:text-[170px]  over:scale-105"
             data-aos="zoom-in"
             data-aos-duration="1000"
           >
             Gallery
           </h1>
-
-          <div className="flex justify-end col-span-2">
-            <Image
-              src={gallery_Image_2}
-              className="hover:scale-105 hover:-translate-y-2
-              hover:-translate-x-3 transition-all ease-in duration-300 outline outline-black cursor-pointer"
-              alt="avoidrafa"
-              onClick={() => openModal(full_View_Image03)}
-            />
-          </div>
+          <div></div>
+          <Image
+            src={gallery_Image_2}
+            className=" hover:scale-95 transition-all ease-in-out duration-500  cursor-pointer w-full h-full object-cover"
+            alt="avoidrafa"
+            onClick={() => openModal(full_View_Image03)}
+          />
           <Image
             src={gallery_Image_3}
-            className=" hover:scale-105  col-span-2 transition-all ease-out duration-300 outline outline-black cursor-pointer  h-full object-cover"
+            className=" col-span-2 hover:scale-95 transition-all ease-in-out duration-500  cursor-pointer  w-full h-full object-cover"
             alt="avoidrafa"
             onClick={() => openModal(full_View_Image01)}
           />
           <Image
             src={gallery_Image_4}
-            className="  hover:scale-105  h-full  transition-all ease-in-out duration-500 outline outline-black cursor-pointer object-cover"
+            className=" hover:scale-95 transition-all ease-in-out duration-500  cursor-pointer w-full h-full object-cover"
             alt="avoidrafa"
             onClick={() => openModal(full_View_Image05)}
           />
           <Image
             src={gallery_Image_5}
-            className="  hover:scale-105   h-full transition-all ease-in-out duration-500 outline outline-black cursor-pointer object-cover "
+            className=" hover:scale-95 transition-all ease-in-out duration-500  cursor-pointer w-full h-full object-cover"
             alt="avoidrafa"
             onClick={() => openModal(full_View_Image02)}
           />
           <Image
             src={gallery_Image_6}
-            className="  hover:scale-105     transition-all ease-in-out duration-500 outline outline-black cursor-pointer col-span-2 object-cover "
+            className="  hover:scale-95 transition-all ease-in-out duration-500  cursor-pointer  col-span-2  w-full h-full object-cover"
             alt="avoidrafa"
             onClick={() => openModal(full_View_Image06)}
           />
-
-          {/* <Image src={gallery_Image_4} alt="avoidrafa" />
-        <Image src={gallery_Image_3} alt="avoidrafa" />
-        <Image src={gallery_Image_7} alt="avoidrafa" />
-        <Image src={gallery_Image_6} alt="avoidrafa" /> 
-        <Image src={gallery_Image_5} alt="avoidrafa" /> */}
         </div>
-        <div className="col-span-4">
+        <div className="grid  col-span-1">
           <Image
             src={gallery_Image_1}
+            className=" hover:scale-95 transition-all ease-in-out duration-500  cursor-pointer w-full h-full object-cover"
             alt="avoidrafa"
-            className="  hover:scale-105 transition-all ease-in-out duration-500 outline outline-black cursor-pointer "
             onClick={() => openModal(gallery_Image_1)}
           />
-          <div>
-            <Image
-              src={gallery_Image_7}
-              className=" transition-all ease-in-out duration-500 outline outline-black cursor-pointer   hover:scale-105 h-[260px]  md:h-[440px] lg:h-[524px] 2xl:h-[530px]   object-cover"
-              alt="avoidrafa"
-              onClick={() => openModal(full_View_Image04)}
-            />
-          </div>
+          <Image
+            src={gallery_Image_7}
+            className=" hover:scale-95 transition-all ease-in-out duration-500  cursor-pointer w-full h-full object-cover"
+            alt="avoidrafa"
+            onClick={() => openModal(full_View_Image04)}
+          />
         </div>
       </div>
       <div className="flex justify-center py-10">

@@ -8,17 +8,17 @@ import Modal from "react-modal";
 const ImageModal = ({ isOpen, onClose, imageSrc }) => {
   const customStyles = {
     content: {
-      top: "50%",
-      left: "50%",
-      transform: "translate( -50%,-50%)",
+      // top: "50%",
+      // left: "50%",
+      // transform: "translate( -50%,-50%)",
     },
   };
-  if (typeof window !== "undefined") {
-    // Add a media query to modify styles for mobile devices
-    if (window.innerWidth <= 768) {
-      customStyles.content.maxHeight = "30%";
-    }
-  }
+  // if (typeof window !== "undefined") {
+  //   // Add a media query to modify styles for mobile devices
+  //   if (window.innerWidth <= 768) {
+  //     customStyles.content.maxHeight = "30%";
+  //   }
+  // }
   return (
     <Modal
       isOpen={isOpen}

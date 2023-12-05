@@ -37,7 +37,7 @@ function ScroolTop() {
         viewBox="0 0 24 24"
         strokeWidth="1.5"
         stroke="white"
-        className="w-16 h-16"
+        className=" w-10 h-10 lg:w-16 lg:h-16"
       >
         <path
           strokeLinecap="round"

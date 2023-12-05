@@ -3,7 +3,7 @@ import React from "react";
 const VideoGallery = () => {
   return (
     <div>
-      <div className="grid grid-cols-1  gap-3 sm:grid-cols-2  mx-[42px]">
+      <div className="grid grid-cols-1  gap-3 sm:grid-cols-2  mx-[42px] py-[42px] w-screen 2xl:w-[1600px] 2xl:mx-auto">
         <iframe
           className="w-full lg:h-[415px]"
           src="https://www.youtube.com/embed/YmoHf6jMgJI?si=d08PcIQHRypfZxL1"
