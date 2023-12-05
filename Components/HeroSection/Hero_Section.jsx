@@ -23,6 +23,7 @@ function Hero_Section() {
       <Image
         src={"/hero-section.png"}
         alt="avoidrafa"
+        priority
         width={1920}
         height={1134}
       />
