@@ -15,79 +15,166 @@ function Album() {
   const SongsBank = {
     songs: {
       song1: {
-        id: "8",
-        audioTrackTitle: "Rain_RAN",
-        audioTrack: "/avoidrafa_and-rain.mp3",
-        audioTrakTime: "4.35",
+        id: "1",
+        audioTrackTitle: "Shobuj Kolponay",
+        audioTrack: "/01 Shobuj Kolponay.wav",
+        audioTrakTime: "8.31",
       },
       song2: {
-        id: "1",
-        audioTrackTitle: "Chader gaye chad",
-        audioTrack: "/02.Chader_Gaye_Chad-avoidRafa_FusionBD.Com.mp3",
-        audioTrakTime: "5.35",
+        id: "2",
+        audioTrackTitle: "Economic Hitman Extended",
+        audioTrack: "/09 Economic Hitman Extended.wav",
+        audioTrakTime: "5.57",
       },
       song3: {
-        id: "2",
-        audioTrackTitle: "Bhaar",
-        audioTrack: "/01.Bhaar-avoidRafa_FusionBD.Com.mp3",
-        audioTrakTime: "3.30",
+        id: "3",
+        audioTrackTitle: "Liberty",
+        audioTrack: "/10 Liberty.wav",
+        audioTrakTime: "4.02",
       },
       song4: {
-        id: "3",
-        audioTrackTitle: "Declaration Of Dependence",
-        audioTrack: "/08.Shobuj_Kolponay-avoidRafa_FusionBD.Com.mp3",
-        audioTrakTime: "7.15",
-      },
-      song5: {
         id: "4",
         audioTrackTitle: "Koshto",
-        audioTrack: "/04.Koshto-avoidRafa_FusionBD.Com.mp3",
-        audioTrakTime: "4.10",
+        audioTrack: "/03 Koshto.wav",
+        audioTrakTime: "5.57",
+      },
+      song5: {
+        id: "5",
+        audioTrackTitle: "Bhaar",
+        audioTrack: "/02 Bhaar.wav",
+        audioTrakTime: "6.00",
       },
       song6: {
-        id: "5",
-        audioTrackTitle: "Liberty",
-        audioTrack: "/05.Liberty-avoidRafa_FusionBD.Com.mp3",
-        audioTrakTime: "3.00",
+        id: "6",
+        audioTrackTitle: "Shopno dekhar gaan",
+        audioTrack: "/05 Shopno dekhar gaan.wav",
+        audioTrakTime: "4.45",
       },
       song7: {
-        id: "6",
-        audioTrackTitle: " Odbhuture tumi",
-        audioTrack: "/06.Odhvuture_Tumi-avoidRafa_FusionBD.Com.mp3",
-        audioTrakTime: "2.59",
+        id: "7",
+        audioTrackTitle: "Bangladesher nam",
+        audioTrack: "/04 Bangladesher nam.wav",
+        audioTrakTime: "6.15",
       },
       song8: {
-        id: "7",
-        audioTrackTitle: "ShobujKolponay",
-        audioTrack: "/08.Shobuj_Kolponay-avoidRafa_FusionBD.Com.mp3",
-        audioTrakTime: "6.45",
+        id: "8",
+        audioTrackTitle: "Chader gaye chad",
+        audioTrack: "/08 Chader gaye chad.wav",
+        audioTrakTime: "6.29",
+      },
+      song9: {
+        id: "9",
+        audioTrackTitle: "Ondho Jibon",
+        audioTrack: "/07 Ondho Jibon.wav",
+        audioTrakTime: "4.14",
+      },
+      song10: {
+        id: "10",
+        audioTrackTitle: "Odbhuture tumi",
+        audioTrack: "/06 Odbhuture tumi.wav",
+        audioTrakTime: "4.14",
+      },
+      song11: {
+        id: "11",
+        audioTrackTitle: "Declaration Of Dependence",
+        audioTrack: "/11 Declaration Of Dependence.wav",
+        audioTrakTime: "8.31",
+      },
+      song12: {
+        id: "12",
+        audioTrackTitle: "LikenShare",
+        audioTrack: "/01 LikenShare.wav",
+        audioTrakTime: "3.48",
+      },
+      song13: {
+        id: "13",
+        audioTrackTitle: "Cholo arekbar uri",
+        audioTrack: "/02 Cholo arekbar uri.wav",
+        audioTrakTime: "4.43",
+      },
+      song14: {
+        id: "14",
+        audioTrackTitle: "Char Dewal",
+        audioTrack: "/03 Char Dewal.wav",
+        audioTrakTime: "4.00",
+      },
+      song15: {
+        id: "15",
+        audioTrackTitle: "04 Har Kala",
+        audioTrack: "/04 Har Kala.wav",
+        audioTrakTime: "5.31",
+      },
+      song16: {
+        id: "16",
+        audioTrackTitle: "05 A shundor prithiby",
+        audioTrack: "/05 A shundor prithiby.wav",
+        audioTrakTime: "4.51",
+      },
+      song17: {
+        id: "17",
+        audioTrackTitle: "06 Roktim Itihas.wav",
+        audioTrack: "/06 Roktim Itihas.wav",
+        audioTrakTime: "4.32",
+      },
+      song18: {
+        id: "18",
+        audioTrackTitle: "Ami Akash Pathabo",
+        audioTrack: "/07 Ami Akash Pathabo.wav",
+        audioTrakTime: "4.03",
+      },
+      song19: {
+        id: "19",
+        audioTrackTitle: "08 Mon tore",
+        audioTrack: "/08 Mon tore.wav",
+        audioTrakTime: "5.25",
+      },
+      song20: {
+        id: "20",
+        audioTrackTitle: "Tobu Keno",
+        audioTrack: "/09 Tobu Keno.wav",
+        audioTrakTime: "2.57",
+      },
+      song21: {
+        id: "21",
+        audioTrackTitle: "Shobhbhotar khela",
+        audioTrack: "/10 Shobhbhotar khela.wav",
+        audioTrakTime: "4.34",
       },
     },
     Album: {
       AvoiRafaVol1: {
         albumname: "AvoiRafaVol1",
-        Albumsong: ["song3", "song2", "song4", "song5", "song7"],
+        Albumsong: [
+          "song1",
+          "song2",
+          "song3",
+          "song4",
+          "song5",
+          "song6",
+          "song7",
+          "song8",
+          "song9",
+          "song10",
+          "song11",
+        ],
       },
       AvoiRafaVol2: {
         albumname: "AvoiRafaVol2",
-        Albumsong: ["song7", "song8", "song5", "song4", "song3"],
-      },
-      AvoiRafaVol3: {
-        albumname: "AvoiRafaVol3",
-        Albumsong: ["song6", "song7", "song8", "song1", "song2"],
-      },
-      AvoiRafaVol4: {
-        albumname: "AvoiRafaVol4",
-        Albumsong: ["song5", "song4", "song1", "song2", "song3"],
+        Albumsong: [
+          "song12",
+          "song13",
+          "song14",
+          "song15",
+          "song16",
+          "song17",
+          "song18",
+          "song19",
+          "song20",
+          "song21",
+        ],
       },
     },
-    Albums: [
-      "AvoiRafaVol1",
-      "AvoiRafaVol2",
-      "AvoiRafaVol3",
-      "AvoiRafaVol4",
-      "AvoiRafaVol4",
-    ],
+    Albums: ["AvoiRafaVol1", "AvoiRafaVol2"],
   };
 
   const [playerStates, setPlayerStates] = useState(
@@ -203,8 +290,8 @@ function Album() {
                   />
 
                   <div className="">
-                    <div className="h-[270px] mt-2 mr-2 overflow-y-scroll rounded-10">
-                      {SongsBank.Album[album].Albumsong.map((song, Index) => (
+                    <div className="h-[270px] 2xl:h-[500px] mt-2 mr-2 overflow-y-scroll rounded-10">
+                      {SongsBank.Album[album]?.Albumsong.map((song, Index) => (
                         <div
                           key={Index}
                           className="flex justify-between  mb-[16px] px-[35px] group/album group/album"

@@ -7,7 +7,6 @@ import emailjs from "@emailjs/browser";
 const ContactUs = () => {
   const [value, onChange] = useState(new Date());
   const [Information, setInformation] = useState({});
-  console.log(Information);
   const form = useRef();
   const getInformation = (event) => {
     const { name, value } = event.target;
@@ -57,21 +56,21 @@ const ContactUs = () => {
         >
           <label
             htmlFor=""
-            className="text-white py-2  text-[16px] sm:text-[16px]"
+            className="text-white py-2  text-[14px] sm:text-[16px]"
           >
-            Name/Organization Name
+            Name
             <input
               type="text"
               name="name"
               required
-              placeholder="Type your Show/Concert location"
+              placeholder="Name"
               className="text-gray-300 text-[12px]   bg-transparent placeholder:bg-transparent placeholder:text-gray-300  placeholder:text-[12px] sm:placeholder:text-[12px] w-[7rem] lg:w-80   outline-none border-b  placeholder:uppercase  border-b-slate-500"
               onChange={getInformation}
             />
           </label>
           <label
             htmlFor=""
-            className="text-white py-2  text-[16px] sm:text-[16px]"
+            className="text-white py-2  text-[14px] sm:text-[16px]"
           >
             Show/Concert location
             <input
