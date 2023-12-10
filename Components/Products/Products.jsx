@@ -48,7 +48,7 @@ const Products = () => {
                 </h1>
               </div>
             </div>
-            <h1>250 BDT</h1>
+            <h1>400 BDT</h1>
           </div>
         </div>
         {/* <div className=" flex flex-col items-center">
